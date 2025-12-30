@@ -19,12 +19,8 @@ export const Navbar = () => {
     return scrollY.onChange((latest) => setIsScrolled(latest > 50));
   }, [scrollY]);
 
-  // ========================================================
-  // ✨ PHẦN MỚI THÊM: Tự động cuộn lên đầu khi chuyển trang ✨
-  // ========================================================
+  
   useEffect(() => {
-    // Không áp dụng logic này nếu đang thực hiện hành động cuộn xuống form liên hệ
-    // (Logic cuộn form liên hệ đã được xử lý riêng bằng setTimeout ở dưới)
     if (!location.hash) { 
         window.scrollTo(0, 0);
     }
@@ -65,7 +61,11 @@ export const Navbar = () => {
             onClick={() => handlePageNavigation('/')}
             className="flex-shrink-0 cursor-pointer"
           >
-            <img src={LOGO_SRC} alt="Trailix Training Center" className="h-16 w-auto object-contain" />
+            <img 
+                src={LOGO_SRC} 
+                alt="Trailix Training Center" 
+                className="h-10 md:h-16 w-auto object-contain" 
+            />
           </Link>
           
           {/* DESKTOP MENU */}

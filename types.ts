@@ -38,3 +38,12 @@ export enum ExperienceLevel {
   Intermediate = 'Đã có kinh nghiệm (Intermediate)',
   Advanced = 'Chuyên gia (Advanced)'
 }
+export interface BlogPost {
+  id: string;
+  title: string;
+  slug: string;
+  description: string;
+  content: string;
+  thumbnail: string;
+  created_at: string;
+}
