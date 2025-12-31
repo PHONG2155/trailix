@@ -1,157 +1,204 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { motion, AnimatePresence, useScroll } from 'framer-motion';
-import { Menu, X, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronRight, ChevronDown } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const LOGO_SRC = "/images/logo-page/Trailix.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [openBusiness, setOpenBusiness] = useState(false);
   const { scrollY } = useScroll();
   const [isScrolled, setIsScrolled] = useState(false);
-  
+
   const location = useLocation();
   const navigate = useNavigate();
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
 
+  // --- Logic 1: Scroll nền Navbar ---
   useEffect(() => {
     return scrollY.onChange((latest) => setIsScrolled(latest > 50));
   }, [scrollY]);
 
-  
-  useEffect(() => {
-    if (!location.hash) { 
-        window.scrollTo(0, 0);
+  // --- Logic 2: FIX SCROLL GIẬT (Dùng useLayoutEffect) ---
+  useLayoutEffect(() => {
+    // Tắt cơ chế tự động cuộn của trình duyệt
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
     }
-  }, [location.pathname]); // Chạy mỗi khi pathname thay đổi
 
-
-  // Hàm xử lý khi click vào menu (giữ nguyên như cũ)
-  const handlePageNavigation = (path) => {
-    setIsOpen(false);
-    if (location.pathname === path) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Cuộn lên đầu NGAY LẬP TỨC trước khi màn hình kịp vẽ ra
+    if (!location.hash) {
+      window.scrollTo(0, 0);
     }
-  };
+  }, [location.pathname]);
+  // ----------------------------------------------
 
-  // Hàm xử lý cuộn xuống form (giữ nguyên như cũ)
   const handleScrollToContact = () => {
     setIsOpen(false);
     if (location.pathname !== '/doanh-nghiep') {
       navigate('/doanh-nghiep');
       setTimeout(() => {
-        const element = document.getElementById('contact-form');
-        if (element) element.scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
       }, 500);
     } else {
-      const element = document.getElementById('contact-form');
-      if (element) element.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <motion.nav 
-      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'}`}
+    <motion.nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
+      }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link 
-            to="/" 
-            onClick={() => handlePageNavigation('/')}
-            className="flex-shrink-0 cursor-pointer"
-          >
-            <img 
-                src={LOGO_SRC} 
-                alt="Trailix Training Center" 
-                className="h-10 md:h-16 w-auto object-contain" 
-            />
+          {/* LOGO */}
+          <Link to="/" className="flex-shrink-0">
+            <img src={LOGO_SRC} alt="Trailix" className="h-12 md:h-16" />
           </Link>
-          
+
           {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center gap-12">
             <div className="flex items-center gap-8">
-              <Link 
+
+              {/* Trang chủ */}
+              <Link
                 to="/"
-                onClick={() => handlePageNavigation('/')}
-                className={`font-bold text-sm uppercase tracking-wider transition-colors font-display relative group ${isActive('/') ? 'text-brand-red' : 'text-brand-darkGray hover:text-brand-red'}`}
+                className={`nav-link ${isActive('/') && 'active'}`}
               >
                 Trang chủ
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-brand-red transition-all ${isActive('/') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
               </Link>
-              
-              <Link 
-                to="/doanh-nghiep"
-                onClick={() => handlePageNavigation('/doanh-nghiep')}
-                className={`font-bold text-sm uppercase tracking-wider transition-colors font-display relative group ${isActive('/doanh-nghiep') ? 'text-brand-red' : 'text-brand-darkGray hover:text-brand-red'}`}
+
+              {/* DOANH NGHIỆP DROPDOWN (Đã FIX FLICKERING & SCROLL) */}
+              <div
+                className="relative h-full flex items-center" // Thêm h-full để bắt sự kiện hover tốt hơn
+                onMouseEnter={() => setOpenBusiness(true)}
+                onMouseLeave={() => setOpenBusiness(false)}
               >
-                Doanh nghiệp
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-brand-red transition-all ${isActive('/doanh-nghiep') ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
-              </Link>
-              
-              <button 
+                <button
+                  className={`nav-link flex items-center gap-1 ${
+                    location.pathname.includes('doanh-nghiep') ||
+                    location.pathname.includes('so-hoa-bai-giang')
+                      ? 'active'
+                      : ''
+                  }`}
+                >
+                  Doanh nghiệp 
+                  <ChevronDown 
+                    className={`w-4 h-4 transition-transform duration-300 ${openBusiness ? 'rotate-180' : ''}`} 
+                  />
+                </button>
+
+                <AnimatePresence>
+                  {openBusiness && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 15, scale: 0.95, filter: "blur(4px)" }}
+                      animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
+                      exit={{ opacity: 0, y: 15, scale: 0.95, filter: "blur(4px)" }}
+                      transition={{ duration: 0.2, ease: "easeOut" }}
+                      className="absolute top-full left-0 w-64 pt-4" // Dùng pt-4 làm "cầu nối vô hình" thay vì mt-2
+                    >
+                      {/* Container chứa nội dung menu */}
+                      <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden p-2 space-y-1">
+                        <Link
+                          to="/doanh-nghiep"
+                          onClick={() => setOpenBusiness(false)} // Đóng menu ngay khi click
+                          className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
+                        >
+                          Đào tạo In-house
+                        </Link>
+                        <Link
+                          to="/so-hoa-bai-giang"
+                          onClick={() => setOpenBusiness(false)} // Đóng menu ngay khi click
+                          className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
+                        >
+                          Số hóa bài giảng
+                        </Link>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              {/* Nhận báo giá */}
+              <button
                 onClick={handleScrollToContact}
-                className="text-brand-darkGray hover:text-brand-red font-bold text-sm uppercase tracking-wider transition-colors font-display relative group"
+                className="nav-link"
               >
-               Nhận báo giá
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-red transition-all group-hover:w-full"></span>
+                Nhận báo giá
               </button>
             </div>
 
-            <motion.button 
+            {/* CTA */}
+            <motion.button
               onClick={handleScrollToContact}
               whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="relative overflow-hidden bg-brand-red text-white hover:bg-brand-darkRed px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wide shadow-lg shadow-brand-red/30 flex items-center gap-2 group cursor-pointer"
+              className="bg-brand-red text-white px-8 py-3 rounded-full font-bold shadow-lg flex items-center gap-2"
             >
-              <span className="relative z-10 flex items-center gap-2">
-                Đăng ký ngay <ChevronRight className="w-4 h-4" />
-              </span>
-              <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 animate-shine" />
+              Đăng ký ngay <ChevronRight className="w-4 h-4" />
             </motion.button>
           </div>
-          
-          {/* MOBILE ACTIONS */}
+
+          {/* MOBILE TOGGLE */}
           <div className="md:hidden flex items-center gap-3">
-            <button 
+            <button
               onClick={handleScrollToContact}
-              className="bg-brand-red text-white text-xs font-bold px-4 py-2.5 rounded-full shadow-md active:scale-95 transition-transform uppercase tracking-wide"
+              className="bg-brand-red text-white px-4 py-2 rounded-full text-xs font-bold"
             >
               Đăng ký
             </button>
-
-            <button onClick={() => setIsOpen(!isOpen)} className="text-brand-darkGray p-1">
-              {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X /> : <Menu />}
             </button>
           </div>
         </div>
       </div>
 
-      {/* MOBILE DROPDOWN */}
+      {/* MOBILE MENU */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-b border-gray-100 overflow-hidden shadow-xl"
+          <motion.div
+            initial={{ height: 0 }}
+            animate={{ height: 'auto' }}
+            exit={{ height: 0 }}
+            className="md:hidden bg-white shadow-xl overflow-hidden"
           >
-            <div className="px-4 pt-2 pb-6 space-y-2">
-              <Link 
-                to="/" 
-                onClick={() => handlePageNavigation('/')} 
-                className="text-brand-darkGray hover:text-brand-red block w-full text-left px-3 py-4 rounded-md text-base font-bold font-display uppercase border-b border-gray-50"
+            <div className="px-4 py-4 space-y-2">
+              <Link to="/" className="mobile-link">Trang chủ</Link>
+
+              {/* MOBILE SUBMENU */}
+              <button
+                onClick={() => setOpenBusiness(!openBusiness)}
+                className="mobile-link flex justify-between items-center w-full"
               >
-                Trang chủ
-              </Link>
-              <Link 
-                to="/doanh-nghiep" 
-                onClick={() => handlePageNavigation('/doanh-nghiep')} 
-                className="text-brand-darkGray hover:text-brand-red block w-full text-left px-3 py-4 rounded-md text-base font-bold font-display uppercase border-b border-gray-50"
-              >
-                Doanh nghiệp
-              </Link>
-              <button onClick={handleScrollToContact} className="text-brand-darkGray hover:text-brand-red block w-full text-left px-3 py-4 rounded-md text-base font-bold font-display uppercase border-b border-gray-50">
+                Doanh nghiệp 
+                <ChevronDown className={`transform transition-transform ${openBusiness ? 'rotate-180' : ''}`} />
+              </button>
+
+              <AnimatePresence>
+                {openBusiness && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    className="overflow-hidden"
+                  >
+                    <div className="ml-4 border-l-2 border-gray-100 pl-4 space-y-2 py-2">
+                      <Link to="/doanh-nghiep" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        Đào tạo In-house
+                      </Link>
+                      <Link to="/so-hoa-bai-giang" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        Số hóa bài giảng
+                      </Link>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              <button onClick={handleScrollToContact} className="mobile-link w-full text-left">
                 Nhận báo giá
               </button>
             </div>

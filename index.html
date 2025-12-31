@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" class="scroll-smooth">
+<html lang="vi" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -66,6 +66,14 @@
       }
     </script>
     <style>
+      /* --- [START FIX] CHỐNG GIẬT LAYOUT --- */
+      html {
+        /* Luôn hiện thanh cuộn dọc để tránh layout bị nhảy sang bên */
+        /* khi chuyển từ trang dài (có cuộn) sang trang ngắn (không cuộn) */
+        overflow-y: scroll; 
+      }
+      /* --- [END FIX] --- */
+
       body {
         background-color: #FFFFFF;
         color: #1F2937;

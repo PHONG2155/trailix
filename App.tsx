@@ -13,7 +13,7 @@ import { CoursesSection } from './components/home/CoursesSection';
 import { BusinessPage } from './components/pages/BusinessPage';
 import { BlogList } from './components/pages/BlogList';
 import { BlogPostDetail } from './components/pages/BlogPostDetail';
-
+import { ElearningPage } from './components/pages/ElearningPage';
 // [MỚI] Import trang 404 vừa tạo ở Bước 1
 import { NotFoundPage } from './components/pages/NotFoundPage';
 
@@ -40,6 +40,9 @@ const App = () => {
               <Route path="/doanh-nghiep" element={<BusinessPage />} />
               <Route path="/blog" element={<BlogList />} />
               <Route path="/blog/:slug" element={<BlogPostDetail />} />
+
+              {/* [MỚI] Route cho trang Số hóa bài giảng */}
+              <Route path="/so-hoa-bai-giang" element={<ElearningPage />} />
 
               {/* [QUAN TRỌNG] Route bắt lỗi 404 - Luôn để cuối cùng */}
               <Route path="*" element={<NotFoundPage />} />
