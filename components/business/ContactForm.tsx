@@ -77,7 +77,7 @@ export const ContactForm = () => {
   const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   const customerTypes = ["Cá nhân", "Doanh nghiệp"];
-  const services = ["Đào tạo AI in-house", "Xây dựng hệ thống LMS", "Xây dựng công cụ AI ChatBot", "Khóa học AI cá nhân", "Tư vấn giải pháp khác"];
+  const services = ["Đào tạo AI in-house","Số hóa Bài Giảng", "Xây dựng hệ thống LMS", "Xây dựng công cụ AI ChatBot", "Khóa học AI cá nhân", "Tư vấn giải pháp khác"];
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

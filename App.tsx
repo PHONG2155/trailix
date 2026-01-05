@@ -14,7 +14,6 @@ import { BusinessPage } from './components/pages/BusinessPage';
 import { BlogList } from './components/pages/BlogList';
 import { BlogPostDetail } from './components/pages/BlogPostDetail';
 import { ElearningPage } from './components/pages/ElearningPage';
-// [MỚI] Import trang 404 vừa tạo ở Bước 1
 import { NotFoundPage } from './components/pages/NotFoundPage';
 
 const HomePage = () => (
@@ -30,10 +29,18 @@ const App = () => {
 
   return (
     <HelmetProvider>
-      <div className="bg-white min-h-screen font-sans selection:bg-brand-red selection:text-white">
+      {/* 1. SỬA Ở ĐÂY: Thêm "flex flex-col"
+         Để biến div này thành flex container dọc, kết hợp min-h-screen để bao trọn màn hình 
+      */}
+      <div className="bg-white min-h-screen flex flex-col font-sans selection:bg-brand-red selection:text-white">
+        
         <Navbar />
+        
         <AnimatePresence mode="wait">
-          <div key={location.pathname} className="w-full">
+          {/* 2. SỬA Ở ĐÂY: Thêm "flex-grow"
+             Để phần này tự động giãn ra chiếm hết khoảng trống, đẩy Footer xuống đáy
+          */}
+          <div key={location.pathname} className="w-full flex-grow">
             <Routes location={location}>
               {/* Các Route chính */}
               <Route path="/" element={<HomePage />} />
@@ -41,16 +48,19 @@ const App = () => {
               <Route path="/blog" element={<BlogList />} />
               <Route path="/blog/:slug" element={<BlogPostDetail />} />
 
-              {/* [MỚI] Route cho trang Số hóa bài giảng */}
+              {/* Route cho trang Số hóa bài giảng */}
               <Route path="/so-hoa-bai-giang" element={<ElearningPage />} />
 
-              {/* [QUAN TRỌNG] Route bắt lỗi 404 - Luôn để cuối cùng */}
+              {/* Route bắt lỗi 404 */}
               <Route path="*" element={<NotFoundPage />} />
               
             </Routes>
           </div>
         </AnimatePresence>
+        
+        {/* Footer sẽ tự động nằm đáy nhờ flex-grow ở trên */}
         <Footer />
+        
       </div>
     </HelmetProvider>
   );
