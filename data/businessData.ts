@@ -1,3 +1,4 @@
+import { link } from 'fs';
 import { Briefcase, Users, Megaphone, TrendingUp, Palette, Calendar, Coffee, Ruler } from 'lucide-react';
 
 export const CLIENT_CATEGORIES = [
@@ -65,6 +66,7 @@ export const TRAINING_PACKAGES = [
 		title: "NỀN TẢNG AI – PROMPT & TRỢ LÝ CÁ NHÂN",
 		duration: "01 Ngày",
 		target: "Toàn bộ nhân viên",
+		link: "/prompt-advanced",
 		modules: [
 			{ title: "MODULE 1: NỀN TẢNG CƠ BẢN VỀ AI", items: ["Phân loại các khái niệm AI", "Ứng dụng thực tế của Generative AI", "Lưu ý quan trọng khi sử dụng AI", "Làm quen với các công cụ AI phổ biến"] },
 			{ title: "MODULE 2: CÔNG THỨC VIẾT PROMPT CƠ BẢN", items: ["Hiểu về Prompt và tầm quan trọng", "Công thức RTIO Framework", "Ngôn ngữ tối ưu khi viết prompt"] },
@@ -77,6 +79,7 @@ export const TRAINING_PACKAGES = [
 		title: "AI TRONG HỌC TẬP & NGHIÊN CỨU",
 		duration: "0.5 Ngày",
 		target: "R&D, Vận hành, Nghiên cứu",
+		link: "/office-ai",
 		modules: [
 			{ title: "MODULE 1: DEEP RESEARCH", items: ["Tính năng DeepSearch", "Cách sử dụng DeepSearch hiệu quả", "Khi nào nên và không nên dùng"] },
 			{ title: "MODULE 2: PHÂN TÍCH \"TÀI LIỆU DÀI\"", items: ["Mục đích và cách dùng NotebookLLM", "Tối ưu nội dung tài liệu đầu vào", "Tạo giọng đọc tóm tắt nội dung"] },
@@ -89,6 +92,7 @@ export const TRAINING_PACKAGES = [
 		title: "PHÂN TÍCH DỮ LIỆU & QUẢN LÝ DỰ ÁN",
 		duration: "01 Ngày",
 		target: "Toàn bộ cán bộ nhân viên",
+		link: "/ai-data",
 		modules: [
 			{ title: "MODULE 1: PHÂN TÍCH DỮ LIỆU VỚI AI", items: ["Các loại dữ liệu có thể phân tích", "Kỹ thuật Chain-of-thought", "Phân tích dữ liệu lớn có cấu trúc"] },
 			{ title: "MODULE 2: TẠO BÁO CÁO & SLIDE", items: ["Xây dựng cấu trúc báo cáo logic", "Trực quan hóa dữ liệu với AI", "Sử dụng Gamma để tạo slide"] },
@@ -101,6 +105,7 @@ export const TRAINING_PACKAGES = [
 		title: "SÁNG TẠO NỘI DUNG ĐA PHƯƠNG TIỆN",
 		duration: "01 Ngày",
 		target: "Marketing, Design, Content",
+		link: "/ai-to-event",
 		modules: [
 			{ title: "MODULE 1: GIỚI THIỆU AI & PROMPT MKT", items: ["Vai trò AI trong chiến lược Marketing", "Xu hướng AI Marketing 2025", "Cấu trúc prompt nền tảng cho MKT"] },
 			{ title: "MODULE 2: CONTENT QUẢNG CÁO & CHUYỂN ĐỔI", items: ["Xây dựng nội dung quảng cáo", "Xây dựng Bộ câu hook, viral", "Framework 3-Second Hook", "Ma trận P-A-S cho video 15s"] },

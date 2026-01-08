@@ -53,7 +53,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* LOGO */}
           <Link to="/" className="flex-shrink-0">
-            <img src={LOGO_SRC} alt="Trailix" className="h-12 md:h-16" />
+            <img src={LOGO_SRC} alt="Trailix" className="h-10 md:h-16" />
           </Link>
 
           {/* DESKTOP MENU */}
@@ -112,11 +112,33 @@ export const Navbar = () => {
                         >
                           SỐ HÓA BÀI GIẢNG
                         </Link>
+                        <Link
+                          to="/lms"
+                          onClick={() => setOpenBusiness(false)}
+                          className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
+                        >
+                          GIẢI PHÁP LMS 
+                        </Link>
+                        <Link
+                          to="/chatbot"
+                          onClick={() => setOpenBusiness(false)}
+                          className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
+                        >
+                          GIẢI PHÁP CHATBOT
+                        </Link>
                       </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
               </div>
+
+              {/* --- MỚI THÊM: BLOG LINK --- */}
+              <Link
+                to="/blog"
+                className={`nav-link ${isActive('/blog') ? 'active' : ''}`}
+              >
+                BLOG
+              </Link>
 
               {/* NHẬN BÁO GIÁ */}
               <button
@@ -187,10 +209,21 @@ export const Navbar = () => {
                       <Link to="/so-hoa-bai-giang" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
                         SỐ HÓA BÀI GIẢNG
                       </Link>
+                       <Link to="/lms" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        GIẢI PHÁP LMS
+                      </Link>
+                       <Link to="/chatbot" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        GIẢI PHÁP CHATBOT
+                      </Link>
                     </div>
                   </motion.div>
                 )}
               </AnimatePresence>
+
+              {/* --- MỚI THÊM: BLOG LINK MOBILE --- */}
+              <Link to="/blog" className="mobile-link block w-full text-left">
+                BLOG
+              </Link>
 
               <button onClick={handleScrollToContact} className="mobile-link w-full text-left">
                 NHẬN BÁO GIÁ

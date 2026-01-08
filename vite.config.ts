@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // THÊM DÒNG NÀY: Giúp các file assets (.js, .css) được gọi đúng đường dẫn tương đối
-      base: './', 
+      base: '/', 
       server: {
         port: 3000,
         host: '0.0.0.0',
