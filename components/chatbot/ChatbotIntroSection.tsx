@@ -1,13 +1,18 @@
 import { Clock, Bot } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export const ChatbotIntroSection = () => {
+  const { t } = useTranslation('chatbot');
+  const problemItems = t('intro.problem.items', { returnObjects: true }) as string[];
+  const solutionItems = t('intro.solution.items', { returnObjects: true }) as string[];
+
   return (
     <section className="bg-white py-28">
       <div className="max-w-7xl mx-auto px-4">
         {/* Title */}
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-black uppercase">
-            Vấn Đề & Giải Pháp
+            {t('intro.title')}
           </h2>
           <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
         </div>
@@ -19,13 +24,12 @@ export const ChatbotIntroSection = () => {
               <Clock />
             </div>
             <h3 className="text-xl font-black mb-4">
-              Khách hàng chờ đợi – Doanh thu bị bỏ lỡ
+              {t('intro.problem.title')}
             </h3>
             <ul className="space-y-3 text-gray-600 font-medium">
-              <li>• Khách nhắn tin ngoài giờ làm việc</li>
-              <li>• CSKH phản hồi chậm do quá tải</li>
-              <li>• Mất khách vì không tư vấn kịp thời</li>
-              <li>• Nhân sự lặp lại cùng câu hỏi mỗi ngày</li>
+              {problemItems.map((item, idx) => (
+                <li key={idx}>• {item}</li>
+              ))}
             </ul>
           </div>
 
@@ -35,16 +39,15 @@ export const ChatbotIntroSection = () => {
               <Bot />
             </div>
             <h3 className="text-xl font-black mb-4 text-brand-red">
-              Giải pháp AI Chatbot Trailix
+              {t('intro.solution.title')}
             </h3>
             <p className="text-gray-700 font-medium mb-4">
-              AI Chatbot giúp doanh nghiệp tự động hóa tư vấn khách hàng 24/7,
-              trả lời chính xác dựa trên dữ liệu nội bộ.
+              {t('intro.solution.description')}
             </p>
             <ul className="space-y-3 text-gray-600 font-medium">
-              <li>• Phản hồi ngay tức thì</li>
-              <li>• Giảm tải nhân sự CSKH</li>
-              <li>• Tăng tỷ lệ chuyển đổi</li>
+              {solutionItems.map((item, idx) => (
+                <li key={idx}>• {item}</li>
+              ))}
             </ul>
           </div>
         </div>

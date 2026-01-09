@@ -1,0 +1,18 @@
+{
+    "list": {
+        "title": "Blog",
+        "subtitle": "AI News and Knowledge",
+        "search": "Search articles...",
+        "readMore": "Read More",
+        "categories": "Categories",
+        "recent": "Recent Posts"
+    },
+    "post": {
+        "share": "Share",
+        "related": "Related Articles",
+        "comments": "Comments",
+        "author": "Author",
+        "publishedOn": "Published on",
+        "readTime": "min read"
+    }
+}

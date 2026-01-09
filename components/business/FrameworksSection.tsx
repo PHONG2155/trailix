@@ -1,10 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { PlayCircle, Users, CheckCircle2 } from "lucide-react";
-import { TRAINING_PACKAGES } from "../../data/businessData";
 import { Reveal } from "../ui/Shared";
+import { useTranslation } from 'react-i18next';
 
 export const FrameworksSection = () => {
+  const { t } = useTranslation('business');
+  const packages = t('frameworks.packages', { returnObjects: true }) as any[];
+
   return (
     <section className="bg-gray-50 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,8 +15,7 @@ export const FrameworksSection = () => {
         <div className="text-center mb-20">
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-black font-display text-gray-900 uppercase leading-tight">
-              Khung Đào Tạo{" "}
-              <span className="text-brand-red">Thực Chiến</span>
+              {t('frameworks.title')}
             </h2>
             <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
           </Reveal>
@@ -21,7 +23,7 @@ export const FrameworksSection = () => {
 
         {/* ===== PACKAGES ===== */}
         <div className="space-y-16">
-          {TRAINING_PACKAGES.map((pkg, idx) => (
+          {packages.map((pkg, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
@@ -56,7 +58,7 @@ export const FrameworksSection = () => {
                         fill="currentColor"
                         className="text-red-200"
                       />
-                      <span className="text-gray-900">Thời lượng:</span>{" "}
+                      <span className="text-gray-900">{t('frameworks.durationLabel')}:</span>{" "}
                       {pkg.duration}
                     </div>
 
@@ -68,7 +70,7 @@ export const FrameworksSection = () => {
                         fill="currentColor"
                         className="text-blue-200"
                       />
-                      <span className="text-gray-900">Đối tượng:</span>{" "}
+                      <span className="text-gray-900">{t('frameworks.targetLabel')}:</span>{" "}
                       {pkg.target}
                     </div>
                   </div>
@@ -105,7 +107,7 @@ export const FrameworksSection = () => {
                           </li>
                         ))}
                       </ul>
-                      
+
                       {/* ĐÃ XÓA NÚT Ở ĐÂY ĐỂ KHÔNG BỊ LẶP */}
                     </div>
                   ))}
@@ -114,14 +116,14 @@ export const FrameworksSection = () => {
                 {/* ===== CTA BUTTON (CHUYỂN RA NGOÀI GRID ĐỂ CHỈ HIỆN 1 LẦN) ===== */}
                 <div className="mt-10 pt-6 border-t border-gray-100 flex justify-start md:justify-end">
                   <a
-                    href={pkg.link || "#"} 
+                    href={pkg.link || "#"}
                     className="inline-flex items-center gap-2 px-6 py-3
                                bg-white border border-red-100 rounded-full
                                text-base font-bold text-brand-red shadow-sm
                                hover:bg-red-50 hover:border-red-200 hover:gap-3 
                                transition-all cursor-pointer group/btn"
                   >
-                    Xem chi tiết khóa học
+                    {t('frameworks.viewDetailsBtn')}
                     <span className="text-xl leading-none transition-transform group-hover/btn:translate-x-1">→</span>
                   </a>
                 </div>

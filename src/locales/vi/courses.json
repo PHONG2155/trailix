@@ -1,0 +1,1183 @@
+{
+    "list": {
+        "badge": "Training Programs",
+        "title": {
+            "main": "HỆ THỐNG",
+            "highlight": "KHÓA HỌC AI"
+        },
+        "subtitle": "Giải pháp đào tạo toàn diện từ tư duy, kỹ năng nền tảng đến ứng dụng chuyên sâu cho từng vị trí.",
+        "viewDetail": "Xem chi tiết",
+        "items": {
+            "prompt-basic": {
+                "title": "PROMPT ENGINEERING CƠ BẢN",
+                "desc": "Viết lệnh hiệu quả lần đầu – Bước chân vào thế giới AI."
+            },
+            "prompt-advanced": {
+                "title": "PROMPT NÂNG CAO & AGENT",
+                "desc": "Xây dựng AI Agent và quy trình tự động hóa doanh nghiệp."
+            },
+            "office-ai": {
+                "title": "AI CHO DÂN VĂN PHÒNG",
+                "desc": "Tăng tốc soạn thảo, xử lý dữ liệu và làm việc thông minh hơn."
+            },
+            "ai-employee": {
+                "title": "AI CHO NHÂN VIÊN",
+                "desc": "Tối ưu hóa hiệu suất cá nhân, giảm tải công việc lặp lại."
+            },
+            "ai-hr": {
+                "title": "AI CHO HR & NHÂN SỰ",
+                "desc": "Từ tuyển dụng, sàng lọc CV đến giữ chân nhân tài."
+            },
+            "ai-sales-marketing": {
+                "title": "AI SALES & MARKETING",
+                "desc": "Tìm kiếm khách hàng, chăm sóc và bùng nổ doanh số."
+            },
+            "ai-design": {
+                "title": "AI DESIGN SÁNG TẠO",
+                "desc": "Thiết kế Banner, Poster, ấn phẩm truyền thông không cần kỹ năng vẽ."
+            },
+            "ai-video": {
+                "title": "AI VIDEO PRODUCTION",
+                "desc": "Sản xuất video marketing chuyên nghiệp từ kịch bản đến hậu kỳ."
+            },
+            "ai-event": {
+                "title": "AI EVENT & STAGE",
+                "desc": "Lên Concept, Visual 3D sân khấu và sự kiện siêu tốc."
+            },
+            "ai-data": {
+                "title": "AI PHÂN TÍCH DỮ LIỆU",
+                "desc": "Biến dữ liệu thô thành báo cáo và chiến lược kinh doanh."
+            },
+            "ai-manager": {
+                "title": "AI CHO QUẢN LÝ (MANAGER)",
+                "desc": "Lãnh đạo bằng dữ liệu, tối ưu nguồn lực và hiệu suất team."
+            },
+            "ai-c-level": {
+                "title": "AI CHO C-LEVEL (LÃNH ĐẠO)",
+                "desc": "Chiến lược chuyển đổi số và kiến tạo lợi thế cạnh tranh."
+            }
+        }
+    },
+    "detail": {
+        "prompt-basic": {
+            "hero": {
+                "badge": "AI Foundation Course",
+                "title": {
+                    "main": "PROMPT ENGINEERING",
+                    "sub": "CƠ BẢN"
+                },
+                "subtitle": {
+                    "text": "Viết Lệnh Hiệu Quả Lần Đầu –",
+                    "highlight": "Bước Chân",
+                    "suffix": "Vào Thế Giới AI."
+                },
+                "duration": "Thời lượng: 2 Buổi nền tảng"
+            },
+            "message": {
+                "text": "“Một câu lệnh (prompt) tốt là chìa khóa mở cửa kho tàng tri thức của AI.",
+                "highlight": "Hãy bắt đầu từ những câu hỏi đúng."
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Cấu trúc Prompt chuẩn",
+                        "desc": "Hiểu rõ cấu trúc và các thành phần cốt lõi (Bối cảnh, Chỉ dẫn, Định dạng) của một câu lệnh mang lại hiệu quả cao nhất."
+                    },
+                    {
+                        "title": "Ứng dụng ngay",
+                        "desc": "Áp dụng ngay kỹ thuật prompt vào xử lý công việc hàng ngày: soạn mail, viết content, phân tích."
+                    },
+                    {
+                        "title": "Kỹ năng viết sắc bén",
+                        "desc": "Rèn luyện tư duy ngôn ngữ, viết prompt rõ ràng, cụ thể để AI hiểu và trả về kết quả chính xác."
+                    },
+                    {
+                        "title": "Làm chủ công cụ",
+                        "desc": "Tự tin điều khiển ChatGPT, Claude, Gemini để tự động hóa tác vụ và giải phóng sức lao động."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Hệ thống kiến thức từ cơ bản đến ứng dụng.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tổng quan Generative AI",
+                        "content": "Hiểu bản chất, cách hoạt động và tầm quan trọng của prompt."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Cấu trúc Prompt hiệu quả",
+                        "content": "4 yếu tố vàng: Bối cảnh, Chỉ dẫn, Định dạng đầu ra, Ví dụ."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Các loại Prompt phổ biến",
+                        "content": "Câu hỏi, mệnh lệnh, few-shot (học qua ví dụ), role-playing (đóng vai)."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Kỹ thuật viết tối ưu",
+                        "content": "Nguyên tắc rõ ràng, cụ thể và chính xác về ngôn từ giao tiếp với AI."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Thực hành thực tế",
+                        "content": "Viết prompt cho email, nội dung marketing, và phân tích dữ liệu sơ bộ."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Xử lý lỗi & Tinh chỉnh",
+                        "content": "Nhận diện lỗi prompt mơ hồ, thiếu bối cảnh và cách khắc phục."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Tài nguyên cá nhân",
+                        "content": "Xây dựng thư viện prompt mẫu cho công việc riêng của bạn."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Người mới bắt đầu",
+                    "Nhân viên văn phòng",
+                    "Quản lý",
+                    "Content Creator",
+                    "Bất kỳ ai muốn tăng năng suất"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng bỏ lỡ cơ hội làm chủ công cụ AI và nâng cao năng suất làm việc ngay hôm nay.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "prompt-advanced": {
+            "hero": {
+                "badge": "AI Automation Course",
+                "title": {
+                    "main": "PROMPT NÂNG CAO",
+                    "sub": "& TRỢ LÝ AI"
+                },
+                "subtitle": "Xây Dựng AI Agent Và Quy Trình Tự Động Hóa Doanh Nghiệp.",
+                "duration": "Thời lượng: 2 Buổi chuyên sâu"
+            },
+            "message": {
+                "text": "“Prompt nâng cao không chỉ là câu hỏi hay, mà là kiến trúc tư duy.",
+                "highlight": "Hãy học cách suy luận cùng AI.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Kỹ thuật Prompt chuyên sâu",
+                        "desc": "Làm chủ tư duy chuỗi (Chain-of-thought) và các kỹ thuật tối ưu hóa để đảm bảo độ chính xác tuyệt đối từ AI."
+                    },
+                    {
+                        "title": "Tạo AI Agent riêng",
+                        "desc": "Xây dựng trợ lý ảo được huấn luyện bằng dữ liệu nội bộ doanh nghiệp để hỗ trợ bán hàng, CSKH 24/7."
+                    },
+                    {
+                        "title": "Automation Workflow",
+                        "desc": "Kết nối AI với Email, Lịch, Drive để tạo ra các luồng công việc tự động hóa hoàn toàn."
+                    },
+                    {
+                        "title": "Từ User thành Creator",
+                        "desc": "Chuyển đổi từ người dùng AI đơn thuần sang người kiến tạo giải pháp, tiết kiệm 70-80% thời gian quản trị."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Hệ thống kiến thức từ tư duy đến triển khai thực tế.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Kỹ thuật Prompt nâng cao",
+                        "content": "Tư duy chuỗi (Chain-of-thought), quản lý bối cảnh sâu và xử lý tác vụ phức tạp."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Thiết kế AI Agent",
+                        "content": "Tạo nhân diện (Persona), thiết lập tông giọng và xây dựng cơ sở tri thức riêng."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Trợ lý hỏi đáp từ tài liệu",
+                        "content": "Làm sạch dữ liệu, nạp kiến thức doanh nghiệp, kỹ thuật tìm kiếm ngữ nghĩa."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Tích hợp công cụ",
+                        "content": "Kết nối AI với hệ sinh thái công việc: Email, Calendar, CRM, Google Sheets."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Giao tiếp tự nhiên",
+                        "content": "Xây dựng kịch bản cho Chatbot bán hàng và Chăm sóc khách hàng tự động."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Automation cơ bản",
+                        "content": "Làm quen với Make.com/N8N, vận hành luồng công việc (workflow) và xử lý lỗi."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Triển khai thực tế",
+                        "content": "Đưa trợ lý AI lên Website, Fanpage hoặc nền tảng nội bộ công ty."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Power User",
+                    "Nhân viên văn phòng",
+                    "Admin/HR",
+                    "Quản lý cấp trung",
+                    "Automation Seeker"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Nâng tầm sự nghiệp với kỹ năng tự động hóa và kiến tạo trợ lý AI cho riêng bạn.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-c-level": {
+            "hero": {
+                "badge": "AI Strategy For C-Level",
+                "title": {
+                    "main": "AI CHO LÃNH ĐẠO",
+                    "sub": "CHIẾN LƯỢC & CHUYỂN ĐỔI SỐ"
+                },
+                "subtitle": "Kiến Tạo Lợi Thế Cạnh Tranh Trong Kỷ Nguyên AI.",
+                "duration": "Thời lượng: 1 - 2 Buổi cấp cao"
+            },
+            "message": {
+                "text": "“Lãnh đạo tương lai là người biết dùng AI để",
+                "highlight": "kiến tạo tương lai.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tầm nhìn dành cho Ban Lãnh Đạo",
+                "items": [
+                    {
+                        "title": "Tầm nhìn chiến lược",
+                        "desc": "Nắm bắt bức tranh lớn (Big Picture) về cơ hội và thách thức của AI, từ đó định hình chiến lược phát triển dài hạn."
+                    },
+                    {
+                        "title": "Đầu tư & ROI",
+                        "desc": "Đánh giá hiệu quả đầu tư công nghệ, tối ưu hóa ngân sách và tạo ra dòng doanh thu mới từ mô hình kinh doanh tích hợp AI."
+                    },
+                    {
+                        "title": "Dẫn dắt chuyển đổi",
+                        "desc": "Quản trị sự thay đổi, xây dựng văn hóa AI và chiến lược nhân tài để doanh nghiệp thích ứng nhanh với thời đại số."
+                    },
+                    {
+                        "title": "Vị thế tiên phong",
+                        "desc": "Tiếp cận các Case study thành công trên thế giới để áp dụng, giúp doanh nghiệp đi trước đón đầu xu thế."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Chiến lược quản trị cấp cao trong kỷ nguyên số.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tổng quan AI cho Lãnh đạo",
+                        "content": "Cập nhật cơ hội, thách thức và xu thế công nghệ toàn cầu ảnh hưởng đến doanh nghiệp."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Thông tin thị trường",
+                        "content": "Sử dụng AI để phân tích đối thủ cạnh tranh và dự báo xu hướng kinh tế vĩ mô."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Thấu hiểu khách hàng",
+                        "content": "Chiến lược cá nhân hóa trải nghiệm khách hàng quy mô lớn (Hyper-personalization)."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Đổi mới mô hình kinh doanh",
+                        "content": "Tái cấu trúc chuỗi giá trị và tạo dòng doanh thu mới từ các sản phẩm/dịch vụ tích hợp AI."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Đầu tư & ROI",
+                        "content": "Khung đánh giá dự án AI khả thi, hoạch định ngân sách và đo lường hiệu quả đầu tư."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Chuyển đổi tổ chức",
+                        "content": "Quản trị sự thay đổi (Change Management) và chiến lược thu hút nhân tài thời đại AI."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Quản trị rủi ro",
+                        "content": "Đạo đức AI, bảo mật dữ liệu và các vấn đề pháp lý cần lưu ý cho cấp lãnh đạo."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "CEO / Tổng Giám Đốc",
+                    "Giám đốc khối (C-Level)",
+                    "Chủ doanh nghiệp",
+                    "Nhà đầu tư",
+                    "Thành viên HĐQT"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Nâng tầm tư duy lãnh đạo và định hình tương lai doanh nghiệp với chiến lược AI bài bản.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-manager": {
+            "hero": {
+                "badge": "AI For Management & Leadership",
+                "title": {
+                    "main": "AI CHO QUẢN LÝ",
+                    "sub": "LÃNH ĐẠO BẰNG DỮ LIỆU"
+                },
+                "subtitle": "Tối Ưu Hóa Nguồn Lực Và Hiệu Suất Team Bằng Công Nghệ.",
+                "duration": "Thời lượng: 1 - 2 Buổi"
+            },
+            "message": {
+                "text": "“Người quản lý giỏi không phải là người làm thay nhân viên,",
+                "highlight": "mà là người trang bị cho nhân viên công cụ tốt nhất.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Quản trị dựa trên dữ liệu",
+                        "desc": "Quản lý hiệu suất, dự án và nhân sự một cách minh bạch, công bằng dựa trên phân tích dữ liệu thực tế và AI."
+                    },
+                    {
+                        "title": "Ra quyết định chính xác",
+                        "desc": "Giảm thiểu cảm tính nhờ khả năng phân tích rủi ro và dự báo xu hướng của trí tuệ nhân tạo."
+                    },
+                    {
+                        "title": "Tối ưu quy trình Team",
+                        "desc": "Chuẩn hóa và tự động hóa quy trình làm việc của cả đội ngũ nhờ các công cụ cộng tác AI thông minh."
+                    },
+                    {
+                        "title": "Giải phóng Lãnh đạo",
+                        "desc": "Giảm tải các công việc hành chính quản trị (Admin) để tập trung hoàn toàn vào chiến lược và con người."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Bộ công cụ quản trị hiện đại cho Leader 4.0.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI trong Quản trị",
+                        "content": "Tổng quan các công cụ AI hỗ trợ ra quyết định chiến lược và giám sát vận hành."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Quản lý hiệu suất",
+                        "content": "Hỗ trợ đánh giá nhân viên (Review) công bằng, lập kế hoạch phát triển (IDP) cá nhân hóa."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Quản lý dự án",
+                        "content": "Dự báo tiến độ, nhận diện rủi ro sớm và đề xuất phương án khắc phục."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Phân tích đội ngũ",
+                        "content": "Theo dõi năng suất thực tế, cân bằng khối lượng công việc (Workload) để tránh quá tải."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Hoạch định nguồn lực",
+                        "content": "Dự báo nhu cầu nhân sự tương lai, ghép nối kỹ năng nhân viên với dự án phù hợp."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Đào tạo & Coaching",
+                        "content": "Sử dụng AI để training nhân viên mới và đóng vai trò Mentor hỗ trợ chuyên môn."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Đạo đức sử dụng AI",
+                        "content": "Xây dựng niềm tin, đảm bảo sự minh bạch và bảo mật dữ liệu trong nội bộ."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Team Leader",
+                    "Project Manager (PM)",
+                    "Trưởng phòng",
+                    "Giám đốc bộ phận",
+                    "Chủ doanh nghiệp"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Nâng tầm năng lực lãnh đạo và quản trị đội ngũ với sức mạnh của dữ liệu và AI.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-employee": {
+            "hero": {
+                "badge": "AI For Employees",
+                "title": {
+                    "main": "AI CHO NHÂN VIÊN",
+                    "sub": "TỐI ƯU HÓA HIỆU SUẤT"
+                },
+                "subtitle": "Sử Dụng AI Như Công Cụ Hàng Ngày Để Xử Lý Công Việc Nhanh Hơn, Hiệu Quả Hơn.",
+                "duration": "Thời lượng: 2 Buổi"
+            },
+            "message": {
+                "text": "“Không phải AI sẽ thay thế bạn, mà là người biết dùng AI sẽ",
+                "highlight": "thay thế người không biết.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Tăng tốc độ làm việc",
+                        "desc": "Hoàn thành công việc 8 tiếng chỉ trong 2-3 tiếng nhờ tự động hóa các tác vụ lặp lại."
+                    },
+                    {
+                        "title": "Nâng cao chất lượng",
+                        "desc": "Soạn thảo văn bản, email, báo cáo chuyên nghiệp, không lỗi chính tả và đúng văn phong doanh nghiệp."
+                    },
+                    {
+                        "title": "Giải quyết vấn đề",
+                        "desc": "Sử dụng AI như một người cố vấn (Mentor) để tìm ra giải pháp cho các vấn đề khó khăn trong công việc."
+                    },
+                    {
+                        "title": "Cân bằng cuộc sống",
+                        "desc": "Giảm áp lực, hạn chế OT (làm thêm giờ) và có thêm thời gian cho bản thân và gia đình."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Bộ kỹ năng AI thực chiến cho mọi nhân viên.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tư duy AI (AI Mindset)",
+                        "content": "Hiểu đúng về AI, cách đặt câu hỏi (Prompting) và tư duy làm chủ công cụ."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Soạn thảo văn bản",
+                        "content": "Viết Email, công văn, biên bản cuộc họp, Proposal nhanh chóng và chuyên nghiệp."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Xử lý dữ liệu cơ bản",
+                        "content": "Tóm tắt tài liệu dài, trích xuất thông tin từ PDF/Excel và làm báo cáo nhanh."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Sáng tạo nội dung",
+                        "content": "Lên ý tưởng, viết bài đăng mạng xã hội, làm Slide thuyết trình đẹp mắt."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Nghiên cứu & Tìm kiếm",
+                        "content": "Kỹ năng tra cứu thông tin thông minh, tổng hợp kiến thức chuyên môn sâu."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Công cụ hình ảnh",
+                        "content": "Tạo ảnh minh họa cho bài thuyết trình hoặc báo cáo mà không cần biết thiết kế."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Lập kế hoạch cá nhân",
+                        "content": "Sắp xếp thời gian biểu, quản lý Task list và tối ưu luồng công việc hàng ngày."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Nhân viên văn phòng",
+                    "Sales & Marketing",
+                    "HR / Admin",
+                    "Kế toán / Tài chính",
+                    "Fresher / Intern"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng để mình bị bỏ lại phía sau. Hãy trang bị vũ khí AI để trở thành nhân viên xuất sắc ngay hôm nay.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-hr": {
+            "hero": {
+                "badge": "AI For HR & Talent Acquisition",
+                "title": {
+                    "main": "AI CHO HR & NHÂN SỰ",
+                    "sub": "TỪ TUYỂN DỤNG ĐẾN GIỮ CHÂN"
+                },
+                "subtitle": "Nâng Tầm Quản Trị Nhân Sự Với Sức Mạnh Của Trí Tuệ Nhân Tạo.",
+                "duration": "Thời lượng: 2 Buổi chuyên sâu"
+            },
+            "message": {
+                "text": "“Nhân sự là cốt lõi. AI giúp bạn",
+                "highlight": "thấu hiểu nhân sự hơn cả chính họ.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Tuyển dụng siêu tốc",
+                        "desc": "Tự động hóa sàng lọc CV, viết JD hấp dẫn và tìm kiếm ứng viên tiềm năng chính xác."
+                    },
+                    {
+                        "title": "Đào tạo cá nhân hóa",
+                        "desc": "Xây dựng lộ trình đào tạo (L&D) riêng biệt cho từng nhân viên với chi phí tối ưu."
+                    },
+                    {
+                        "title": "Gắn kết nhân viên",
+                        "desc": "Phân tích cảm xúc, dự báo tỷ lệ nghỉ việc và đề xuất giải pháp giữ chân nhân tài kịp thời."
+                    },
+                    {
+                        "title": "Giảm tải hành chính",
+                        "desc": "Tự động hóa chấm công, tính lương, giải đáp thắc mắc về chính sách, phúc lợi (HR Bot)."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Chuyển đổi số toàn diện quy trình nhân sự.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI trong Tuyển dụng",
+                        "content": "Viết JD, Screening CV tự động, tạo bộ câu hỏi phỏng vấn theo năng lực."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Sourcing Ứng viên",
+                        "content": "Kỹ thuật tìm kiếm ứng viên thụ động (Passive Candidates) trên LinkedIn, Facebook."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Onboarding & Training",
+                        "content": "Tạo tài liệu đào tạo, video hướng dẫn hội nhập và lộ trình thăng tiến."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Truyền thông nội bộ",
+                        "content": "Sáng tạo nội dung gắn kết, TB thông báo và kịch bản sự kiện nội bộ."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Đánh giá năng lực",
+                        "content": "Xây dựng khung năng lực, KPI/OKR và hệ thống phản hồi (Feedback) hiệu quả."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Phân tích nhân sự",
+                        "content": "Đo lường sự hài lòng, phân tích nguyên nhân nghỉ việc và xu hướng nhân lực."
+                    },
+                    {
+                        "step": "07",
+                        "title": "HR Chatbot",
+                        "content": "Xây dựng trợ lý ảo giải đáp chính sách, quy định công ty 24/7."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "HR Executive",
+                    "Talent Acquisition",
+                    "C&B",
+                    "L&D Specialist",
+                    "HR Manager/Director"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Kiến tạo môi trường làm việc thông minh và hạnh phúc hơn với chiến lược HR 4.0.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-sales-marketing": {
+            "hero": {
+                "badge": "AI For Sales & Growth",
+                "title": {
+                    "main": "AI CHO SALES & MARKETING",
+                    "sub": "BÙNG NỔ DOANH SỐ"
+                },
+                "subtitle": "Tìm Kiếm Khách Hàng – Chăm Sóc & Chốt Sale Tự Động.",
+                "duration": "Thời lượng: 2 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Marketing dựa trên cảm tính. Sales dựa trên thương lượng. AI dựa trên dữ liệu.",
+                "highlight": "Kết hợp cả ba để bùng nổ doanh số.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Vũ khí hạng nặng cho đội ngũ tiền tuyến",
+                "items": [
+                    {
+                        "title": "Tối ưu Lead Generation",
+                        "desc": "Tự động hóa quy trình tìm kiếm, làm giàu dữ liệu và phân loại khách hàng tiềm năng (Lead Scoring) để Sales tập trung chốt đơn."
+                    },
+                    {
+                        "title": "Cá nhân hóa quy mô lớn",
+                        "desc": "Gửi hàng nghìn thông điệp tiếp thị nhưng vẫn giữ được sự riêng biệt cho từng khách hàng nhờ AI."
+                    },
+                    {
+                        "title": "Hỗ trợ Sales thực chiến",
+                        "desc": "Soạn kịch bản gọi điện, email chào hàng, phân tích cuộc gọi và dự báo doanh số chính xác."
+                    },
+                    {
+                        "title": "Tăng tỷ lệ chuyển đổi",
+                        "desc": "Rút ngắn chu kỳ bán hàng và tăng giá trị vòng đời khách hàng (Upsell/Cross-sell) nhờ thấu hiểu dữ liệu."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Quy trình khép kín từ Tìm kiếm đến Chốt đơn.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tìm kiếm & Phân loại",
+                        "content": "Chấm điểm Lead (Lead Scoring) và làm giàu dữ liệu khách hàng tự động."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Sales Intelligence",
+                        "content": "Nghiên cứu sâu về khách hàng và đối thủ trước khi thực hiện cuộc gọi đầu tiên."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Cá nhân hóa thông điệp",
+                        "content": "Viết Email lạnh (Cold Email), kịch bản telesales 'chạm' đúng nỗi đau khách hàng."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Marketing Automation",
+                        "content": "Tối ưu hóa chiến dịch quảng cáo, phân khúc khách hàng và nuôi dưỡng tự động."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Hỗ trợ đội ngũ Sales",
+                        "content": "Phân tích tâm lý qua cuộc gọi, đóng vai 'Sale Coach' ảo để huấn luyện nhân viên."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Dự báo & Phân tích",
+                        "content": "Quản lý Pipeline bán hàng và dự báo doanh thu dựa trên dữ liệu thực tế."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Chăm sóc khách hàng",
+                        "content": "Tự động hóa phản hồi, cá nhân hóa trải nghiệm sau bán để tăng tỷ lệ quay lại."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Nhân viên Sales",
+                    "Chuyên viên Marketing",
+                    "Business Development (BD)",
+                    "Chăm sóc khách hàng",
+                    "Sale Manager"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng để đối thủ vượt mặt. Hãy trang bị vũ khí AI cho đội ngũ Sales & Marketing ngay hôm nay.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-data": {
+            "hero": {
+                "badge": "AI Data Analysis",
+                "title": {
+                    "main": "AI CHO PHÂN TÍCH",
+                    "sub": "DỮ LIỆU & BÁO CÁO"
+                },
+                "subtitle": "Biến Dữ Liệu Thô Thành Chiến Lược Kinh Doanh.",
+                "duration": "Thời lượng: 2 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Dữ liệu là tài sản. AI là công cụ khai thác tài sản đó để",
+                "highlight": "tạo ra lợi nhuận.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Quy trình xử lý dữ liệu",
+                        "desc": "Làm chủ kỹ thuật làm sạch, chuẩn hóa và cấu trúc lại các file Excel/CSV phức tạp chỉ trong vài phút."
+                    },
+                    {
+                        "title": "Phân tích chuyên sâu",
+                        "desc": "Thống kê, tìm ra xu hướng (trend) ẩn giấu và trích xuất insights giá trị để ra quyết định."
+                    },
+                    {
+                        "title": "Báo cáo ấn tượng",
+                        "desc": "Kỹ thuật trực quan hóa (Visualization) và kể chuyện với dữ liệu (Data Storytelling) đầy thuyết phục."
+                    },
+                    {
+                        "title": "Không cần lập trình",
+                        "desc": "Phân tích dữ liệu nhanh chóng, chính xác mà không cần biết Python hay SQL, phù hợp với dân văn phòng."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Lộ trình làm chủ dữ liệu từ A-Z.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tổng quan về Dữ liệu",
+                        "content": "Phân biệt dữ liệu có cấu trúc và phi cấu trúc, tư duy Data-driven."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Làm sạch dữ liệu",
+                        "content": "Tự động phát hiện và xử lý dữ liệu lỗi, thiếu sót, chuẩn hóa định dạng."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Phân tích cơ bản",
+                        "content": "Thống kê mô tả, nhận diện mẫu (pattern) và phát hiện các điểm bất thường."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Trích xuất Insights",
+                        "content": "Tìm ý nghĩa đằng sau những con số khô khan và đưa ra khuyến nghị hành động."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Dự báo (Forecasting)",
+                        "content": "Mô phỏng kịch bản (What-if analysis) và dự đoán xu hướng kinh doanh tương lai."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Trực quan hóa",
+                        "content": "Lựa chọn biểu đồ hiệu quả, xây dựng Dashboard theo dõi chỉ số."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Kỹ năng báo cáo",
+                        "content": "Tối ưu hóa slide báo cáo chiến lược và kỹ thuật kể chuyện với dữ liệu."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Quản lý",
+                    "Chuyên viên phân tích",
+                    "Marketing Manager",
+                    "Chủ doanh nghiệp",
+                    "Kế toán/Tài chính"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Biến những con số khô khan thành vũ khí chiến lược sắc bén cho doanh nghiệp của bạn.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-design": {
+            "hero": {
+                "badge": "AI For Creative Design",
+                "title": {
+                    "main": "AI CHO DESIGN",
+                    "sub": "SÁNG TẠO"
+                },
+                "subtitle": "Banner, Poster, Brochure, HTML Email – Giải Pháp Thiết Kế Toàn Diện.",
+                "duration": "Thời lượng: 2 - 4 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Bạn không cần là họa sĩ. Công thức:",
+                "highlight": "AI + Prompt + Tư duy thiết kế = Tác phẩm chuyên nghiệp.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Tư duy thiết kế (Design Thinking)",
+                        "desc": "Nắm vững các nguyên lý cốt lõi: Bố cục (Layout), lý thuyết màu sắc, Typography và phân cấp thông tin."
+                    },
+                    {
+                        "title": "Làm chủ công cụ AI",
+                        "desc": "Sử dụng thành thạo Midjourney, Ideogram... để tạo ra những hình ảnh chất lượng cao, độc bản."
+                    },
+                    {
+                        "title": "Ấn phẩm thực tế",
+                        "desc": "Tự tay thiết kế Banner, Brochure, Poster và Landing Page chuyên nghiệp ngay trong khóa học."
+                    },
+                    {
+                        "title": "Tự chủ & Nhất quán",
+                        "desc": "Giảm phụ thuộc vào thuê ngoài, tiết kiệm chi phí và đảm bảo tính nhất quán thương hiệu (Brand Consistency)."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Từ tư duy thẩm mỹ đến kỹ năng thực thi sắc bén.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Nền tảng Design Thinking",
+                        "content": "Hiểu sâu về bố cục, màu sắc, font chữ và các nguyên tắc thị giác."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Phong cách thiết kế",
+                        "content": "Khám phá các style: Hiện đại, Tối giản, Cổ điển, Corporate..."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Công cụ tạo ảnh AI",
+                        "content": "Kỹ thuật và mẹo hay với Midjourney, Ideogram để tạo ảnh như ý."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Viết Prompt cho hình ảnh",
+                        "content": "Công thức mô tả chi tiết, từ khóa phong cách và thông số kỹ thuật."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Thực hành ứng dụng",
+                        "content": "Thiết kế Banner, Standee, Flyer, Social Post cho chiến dịch."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Thiết kế Web & Email",
+                        "content": "Tạo Template HTML, cấu trúc Landing Page và Slide Background."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Hậu kỳ & Branding",
+                        "content": "Chỉnh sửa, tăng độ phân giải (upscale) và kiểm soát nhận diện thương hiệu."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Marketer",
+                    "Content Creator",
+                    "Chủ doanh nghiệp nhỏ",
+                    "Freelancer",
+                    "Nhân viên văn phòng"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Biến ý tưởng thành hình ảnh chuyên nghiệp ngay hôm nay mà không cần kỹ năng vẽ.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-video": {
+            "hero": {
+                "badge": "AI Video Production",
+                "title": {
+                    "main": "AI CHO VIDEO",
+                    "sub": "PRODUCTION"
+                },
+                "subtitle": "Từ Kịch Bản Đến Hậu Kỳ – Làm Video Marketing Không Cần Ê-kíp Chuyên Nghiệp.",
+                "duration": "Thời lượng: 2 - 4 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Video là tương lai của nội dung.",
+                "highlight": "AI bình dân hóa quy trình làm phim, giúp bạn tạo video ấn tượng chỉ trong 30 phút.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Tư duy đạo diễn",
+                        "desc": "Học cách xây dựng kịch bản phân cảnh, nhịp điệu phim và nghệ thuật kể chuyện bằng hình ảnh (Visual Storytelling) thu hút."
+                    },
+                    {
+                        "title": "Quy trình trọn gói",
+                        "desc": "Làm chủ từ A-Z: Kịch bản → Hình ảnh AI → Giọng đọc AI → Nhạc nền → Dựng phim hoàn chỉnh."
+                    },
+                    {
+                        "title": "Sản phẩm thực tế",
+                        "desc": "Thực hành tạo video quảng cáo, giới thiệu sản phẩm hoặc video đào tạo hoàn chỉnh ngay tại lớp."
+                    },
+                    {
+                        "title": "Tốc độ & Tiết kiệm",
+                        "desc": "Tăng tốc độ sản xuất lên gấp 10 lần, tiết kiệm tối đa ngân sách thuê quay dựng và lồng tiếng."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Lộ trình biến bạn thành nhà sản xuất video độc lập.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Tư duy đạo diễn",
+                        "content": "Cấu trúc kịch bản, hành trình cảm xúc và nhịp điệu phim cơ bản."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Các thể loại video",
+                        "content": "Phân tích TVC quảng cáo, video giới thiệu doanh nghiệp, video đào tạo, Shorts/Reels."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Kịch bản thu hút",
+                        "content": "Công thức Hook (Điểm nhấn), Vấn đề, Giải pháp để giữ chân người xem."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Tạo nguyên liệu bằng AI",
+                        "content": "Tạo ảnh/video minh họa, sinh giọng đọc (Text-to-speech) và nhạc nền (Suno/Udio)."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Dựng phim & Hiệu ứng",
+                        "content": "Sử dụng CapCut, kỹ thuật chuyển cảnh, chỉnh màu và lồng ghép thành phần."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Tối ưu hóa đa kênh",
+                        "content": "Tạo phụ đề tự động, xuất bản video chuẩn định dạng cho TikTok, YouTube, Facebook."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Sử dụng MC ảo",
+                        "content": "Ứng dụng AI Avatar để làm video thuyết trình hoặc bản tin chuyên nghiệp."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Marketer",
+                    "Content Creator",
+                    "Quản lý truyền thông",
+                    "Đào tạo viên",
+                    "Youtuber/TikToker"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng bỏ lỡ cơ hội tự tay sản xuất những thước phim chuyên nghiệp với sức mạnh của AI.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "office-ai": {
+            "hero": {
+                "badge": "AI for Productivity",
+                "title": {
+                    "main": "ỨNG DỤNG AI CƠ BẢN",
+                    "sub": "CHO DÂN VĂN PHÒNG"
+                },
+                "subtitle": "Từ Soạn Thảo Đến Phân Tích Dữ Liệu – Bộ Kỹ Năng Thiết Yếu.",
+                "duration": "Thời lượng: 2 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Đừng làm việc chăm chỉ hơn,",
+                "highlight": "hãy làm việc thông minh hơn cùng AI.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Soạn thảo siêu tốc",
+                        "desc": "Tối ưu hóa việc soạn thảo văn bản, email, báo cáo và sáng tạo nội dung chuyên nghiệp chỉ trong tích tắc."
+                    },
+                    {
+                        "title": "Phân tích dữ liệu",
+                        "desc": "Kỹ năng làm sạch dữ liệu thô, thống kê và trích xuất thông tin (insights) quan trọng hỗ trợ ra quyết định."
+                    },
+                    {
+                        "title": "Thiết kế Slide thần tốc",
+                        "desc": "Tạo slide thuyết trình đẹp mắt, bố cục chuẩn chỉnh với Gamma, Claude Designer hoặc Gemini."
+                    },
+                    {
+                        "title": "Tư duy \"AI-First\"",
+                        "desc": "Tiết kiệm 2-3 giờ làm việc mỗi ngày nhờ luôn nghĩ đến giải pháp AI trước khi bắt tay vào làm thủ công."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Bộ kỹ năng \"sinh tồn\" trong kỷ nguyên số.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Ôn tập kỹ thuật Prompt",
+                        "content": "Nắm vững cách viết lệnh rõ ràng, mạch lạc để AI hiểu đúng ý."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Soạn thảo văn bản",
+                        "content": "Viết email, công văn, proposal, nội dung mạng xã hội chuyên nghiệp."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Kỹ năng sáng tạo",
+                        "content": "Phát triển ý tưởng đột phá và kể chuyện (storytelling) thu hút."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Nghiên cứu thị trường",
+                        "content": "Sử dụng 'Deep Research' để phân tích đối thủ & thấu hiểu khách hàng."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Phân tích dữ liệu",
+                        "content": "Làm sạch dữ liệu thô, thống kê nhanh và tìm ra insights đắt giá."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Thiết kế báo cáo",
+                        "content": "Sử dụng Gamma, Claude, Gemini để tạo slide báo cáo tự động trong 30 phút."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Tối ưu PowerPoint",
+                        "content": "Tinh chỉnh bố cục, màu sắc và trực quan hóa dữ liệu ấn tượng."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Nhân viên văn phòng",
+                    "Quản lý",
+                    "HR/Admin",
+                    "Sales/Marketing",
+                    "Bất kỳ ai muốn tăng năng suất"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng bỏ lỡ cơ hội trang bị bộ kỹ năng \"sinh tồn\" trong kỷ nguyên số.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        },
+        "ai-event": {
+            "hero": {
+                "badge": "AI Event Master",
+                "title": {
+                    "main": "AI DESIGN",
+                    "sub": "EVENT & STAGE"
+                },
+                "subtitle": "Biến Brief thành Visual 3D siêu tốc. Vũ khí tối thượng cho Event Agency.",
+                "duration": "Thời lượng: 4 Buổi thực chiến"
+            },
+            "message": {
+                "text": "“Sân khấu là nơi rực rỡ nhất.",
+                "highlight": "AI giúp bạn tỏa sáng trong mọi dự án.”"
+            },
+            "values": {
+                "badge": "Giá trị cốt lõi",
+                "title": "Tại sao bạn cần khóa học này?",
+                "items": [
+                    {
+                        "title": "Quy trình \"Zero to Hero\"",
+                        "desc": "Làm chủ luồng công việc toàn diện: Phân tích Brief khó nhằn → Lên Concept độc đáo → Xuất Visual 3D chinh phục khách hàng."
+                    },
+                    {
+                        "title": "Tốc độ tối đa",
+                        "desc": "Dùng AI tạo Moodboard, Key Visual và phác thảo layout sân khấu nhanh gấp 10 lần cách làm cũ."
+                    },
+                    {
+                        "title": "Video Diễn họa",
+                        "desc": "Tạo video demo 3D với hiệu ứng ánh sáng, khói, cam movement cinematic."
+                    },
+                    {
+                        "title": "Tăng tỷ lệ Win Rate",
+                        "desc": "Thuyết phục chủ đầu tư nhờ những bản Proposal trực quan, sống động và đầy cảm xúc."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Nội dung chính",
+                "subtitle": "Hệ thống kiến thức từ cơ bản đến chuyên sâu.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Phân tích Brief",
+                        "content": "Hiểu nhu cầu khách hàng, mục tiêu và bộ nhận diện thương hiệu."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Brainstorm & Ý tưởng",
+                        "content": "Phát triển Concept chủ đạo, Moodboard."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Key Visual",
+                        "content": "Tạo hình ảnh chủ đạo bằng AI, tìm kiếm phong cách."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Phác thảo (Sketch)",
+                        "content": "Bố cục không gian, sắp đặt sân khấu."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Dựng 3D Sân khấu & Booth",
+                        "content": "Mô hình hóa cơ bản, chi tiết layout."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Ánh sáng & Góc quay",
+                        "content": "Thiết kế ánh sáng sân khấu, chọn góc camera đắt giá."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Video diễn họa & Proposal",
+                        "content": "Render video 3D, lồng ghép vào bài thuyết trình."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Dành cho ai?",
+                "tags": [
+                    "Event Designer",
+                    "Art Director",
+                    "Account Manager",
+                    "Producer",
+                    "Freelancer"
+                ]
+            },
+            "cta": {
+                "title": "Sẵn sàng bứt phá?",
+                "desc": "Đừng bỏ lỡ cơ hội làm chủ công nghệ AI trong thiết kế sự kiện.",
+                "register": "Đăng ký tư vấn ngay"
+            }
+        }
+    }
+}

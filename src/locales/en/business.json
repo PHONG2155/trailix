@@ -1,0 +1,506 @@
+{
+    "hero": {
+        "badge": "Strategic Partner",
+        "title": {
+            "line1": "AI TRAINING",
+            "line2": "FOR ENTERPRISES"
+        },
+        "features": [
+            "In-depth & customized training programs",
+            "Focused training, 100% practical",
+            "Expert instructors with years of experience",
+            "Commitment: 85% of staff can apply immediately"
+        ],
+        "cta": "REGISTER FOR CONSULTATION"
+    },
+    "quote": {
+        "text": "AI won't replace humans. But people who know how to use AI will replace those who don't."
+    },
+    "impact": {
+        "title": "Meaning & Impact",
+        "employee": {
+            "title": "FOR EMPLOYEES",
+            "benefits": [
+                {
+                    "title": "Save 4-6h/day",
+                    "desc": "Increase productivity by 300-500%"
+                },
+                {
+                    "title": "Improve quality",
+                    "desc": "Minimize operational errors"
+                }
+            ]
+        },
+        "manager": {
+            "title": "FOR MANAGERS",
+            "benefits": [
+                {
+                    "title": "Make accurate decisions",
+                    "desc": "Forecast trends & business performance"
+                },
+                {
+                    "title": "Save time",
+                    "desc": "Reporting time reduced by 90%"
+                }
+            ]
+        }
+    },
+    "training": {
+        "title": "Training Areas",
+        "fields": [
+            {
+                "title": "AI Management",
+                "desc": "Optimize decision-making."
+            },
+            {
+                "title": "AI HR",
+                "desc": "Automated recruitment."
+            },
+            {
+                "title": "AI Marketing",
+                "desc": "Creative Content."
+            },
+            {
+                "title": "AI Sales",
+                "desc": "Increase closing rate."
+            },
+            {
+                "title": "AI Design",
+                "desc": "Automated publications."
+            },
+            {
+                "title": "AI Events",
+                "desc": "Scripts & Visuals."
+            },
+            {
+                "title": "AI F&B",
+                "desc": "Menu & Operations."
+            },
+            {
+                "title": "Custom Design",
+                "desc": "Tailored solutions."
+            }
+        ]
+    },
+    "frameworks": {
+        "title": "AI Tools & Frameworks",
+        "durationLabel": "Duration",
+        "targetLabel": "Target",
+        "viewDetailsBtn": "View Course Details",
+        "packages": [
+            {
+                "id": "01",
+                "title": "AI FOUNDATION – PROMPTS & PERSONAL ASSISTANT",
+                "duration": "1 Day",
+                "target": "All employees",
+                "link": "/prompt-advanced",
+                "modules": [
+                    {
+                        "title": "MODULE 1: AI FUNDAMENTALS",
+                        "items": [
+                            "Classify AI concepts",
+                            "Real-world applications of Generative AI",
+                            "Important notes when using AI",
+                            "Familiarize with popular AI tools"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: BASIC PROMPT FORMULA",
+                        "items": [
+                            "Understanding Prompts and their importance",
+                            "RTIO Framework formula",
+                            "Optimal language when writing prompts"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: ADVANCED PROMPT TECHNIQUES",
+                        "items": [
+                            "Role-based prompt writing techniques",
+                            "Markdown formatting in prompts",
+                            "Providing input information",
+                            "Constraining output results"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: AI ASSISTANT",
+                        "items": [
+                            "Distinguish types of personal AI",
+                            "Machine learning techniques for personal AI",
+                            "Few-shot learning technique",
+                            "Design personal AI Assistant"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "02",
+                "title": "AI IN LEARNING & RESEARCH",
+                "duration": "0.5 Day",
+                "target": "R&D, Operations, Research",
+                "link": "/office-ai",
+                "modules": [
+                    {
+                        "title": "MODULE 1: DEEP RESEARCH",
+                        "items": [
+                            "DeepSearch features",
+                            "How to use DeepSearch effectively",
+                            "When to use and not use"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: ANALYZING \"LONG DOCUMENTS\"",
+                        "items": [
+                            "Purpose and how to use NotebookLLM",
+                            "Optimize input document content",
+                            "Create voice summary of content"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: CREATE DIAGRAMS, PROCESSES",
+                        "items": [
+                            "Understanding Mermaid Diagram format",
+                            "Using Claude to create diagrams",
+                            "Optimize and edit diagrams"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: BUILD KNOWLEDGE BASE",
+                        "items": [
+                            "Build organizational knowledge repository",
+                            "Optimize internal search"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "03",
+                "title": "DATA ANALYSIS & PROJECT MANAGEMENT",
+                "duration": "1 Day",
+                "target": "All staff and employees",
+                "link": "/ai-data",
+                "modules": [
+                    {
+                        "title": "MODULE 1: DATA ANALYSIS WITH AI",
+                        "items": [
+                            "Types of analyzable data",
+                            "Chain-of-thought technique",
+                            "Analyze large structured data"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: CREATE REPORTS & SLIDES",
+                        "items": [
+                            "Build logical report structure",
+                            "Visualize data with AI",
+                            "Use Gamma to create slides"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: PLANNING & PROJECT MANAGEMENT",
+                        "items": [
+                            "Set goals using SMART model",
+                            "Allocate resources using RACI model",
+                            "Eisenhower model for task prioritization"
+                        ]
+                    },
+                    {
+                        "title": "PROCESS AUTOMATION",
+                        "items": [
+                            "Self-Consistency prompt technique",
+                            "Automate reporting process"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "04",
+                "title": "MULTIMEDIA CONTENT CREATION",
+                "duration": "1 Day",
+                "target": "Marketing, Design, Content",
+                "link": "/ai-to-event",
+                "modules": [
+                    {
+                        "title": "MODULE 1: AI INTRO & MARKETING PROMPTS",
+                        "items": [
+                            "AI's role in Marketing strategy",
+                            "AI Marketing trends 2025",
+                            "Foundation prompt structure for Marketing"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: ADVERTISING CONTENT & CONVERSION",
+                        "items": [
+                            "Build advertising content",
+                            "Build hook phrases, viral content",
+                            "3-Second Hook Framework",
+                            "P-A-S matrix for 15s videos"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: MULTIMEDIA CREATION",
+                        "items": [
+                            "Design brand images",
+                            "Build \"AI Model\" for yourself",
+                            "Mass produce publications"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: PROFESSIONAL AI VIDEO",
+                        "items": [
+                            "Develop advertising video ideas",
+                            "Self-replication process",
+                            "Create videos from text and images"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "REGISTER FOR CONSULTATION",
+        "form": {
+            "name": "Full Name",
+            "email": "Email",
+            "phone": "Phone Number",
+            "phonePlaceholder": "091 234 56 78",
+            "customerType": "You are",
+            "customerTypePlaceholder": "Please select...",
+            "position": "Position",
+            "positionPlaceholder": "eg: Marketing Manager",
+            "companyName": "Company Name",
+            "companyPlaceholder": "eg: ABC Company",
+            "service": "Service needed",
+            "servicePlaceholder": "Select service...",
+            "note": "Additional notes (if any)",
+            "submit": "Send Consultation Request",
+            "submitting": "Processing...",
+            "required": "*"
+        },
+        "customerTypes": [
+            "Individual",
+            "Enterprise"
+        ],
+        "services": [
+            "In-house AI Training",
+            "Content Digitization",
+            "LMS System Development",
+            "AI ChatBot Tool Development",
+            "Personal AI Course",
+            "Other Solution Consultation"
+        ],
+        "validation": {
+            "nameEmail": "Please fill in both Full Name and Email.",
+            "phone": "Please enter phone number.",
+            "phoneInvalid": "Invalid phone number (Please enter 10 digits, starting with 0).",
+            "customerType": "Please select customer type.",
+            "service": "Please select service needed."
+        },
+        "messages": {
+            "success": "Thank you for registering! We will contact you soon.",
+            "error": "Send failed"
+        }
+    },
+    "testimonials": {
+        "title": "What Clients Say",
+        "items": [
+            {
+                "content": "Before I struggled with Photoshop, now thanks to AI, boom! A whole new world opened up. Ideas just fly into images.",
+                "course": "AI CREATIVE MASTERY",
+                "name": "Bích Trâm - Freelancer"
+            },
+            {
+                "content": "My small bakery can now create professional logos and banners without hiring outside help.",
+                "course": "AI CREATIVE MASTERY",
+                "name": "Châu Oanh - Micro SME Owner"
+            },
+            {
+                "content": "Work efficiency doubled, I was promoted to Marketing Manager in just 6 months.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Hạnh Nguyên - Marketing Specialist"
+            },
+            {
+                "content": "My business struggled with data management. After applying AI, productivity increased by 30%.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Minh Trung - Operations Director"
+            },
+            {
+                "content": "AI is not an enemy but a tool. I've used AI to analyze data and personalize content.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Anonymous - Content"
+            },
+            {
+                "content": "I used to worry about the future. But after the course, I completely changed my mindset.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Anonymous - Marketing"
+            }
+        ]
+    },
+    "clients": {
+        "title": "Partners & Clients",
+        "categories": [
+            {
+                "title": "Technology & Telecommunications",
+                "clients": [
+                    {
+                        "name": "Google",
+                        "logo": "/images/logo-business/google-logo-transparent.png",
+                        "desc": "Multinational technology corporation."
+                    },
+                    {
+                        "name": "Viettel",
+                        "logo": "/images/logo-business/viettel.png",
+                        "desc": "Military Industry and Telecommunications Group."
+                    },
+                    {
+                        "name": "CMC Corp",
+                        "logo": "/images/logo-business/CMC_logo.png",
+                        "desc": "Information technology and telecommunications corporation."
+                    },
+                    {
+                        "name": "Haravan",
+                        "logo": "/images/logo-business/harvan.svg",
+                        "desc": "Retail, e-commerce and marketing solutions provider."
+                    },
+                    {
+                        "name": "Grab",
+                        "logo": "/images/logo-business/Grab_Logo.svg.png",
+                        "desc": "Super app (Ride-hailing, delivery, food...)."
+                    }
+                ]
+            },
+            {
+                "title": "Finance & Fintech",
+                "clients": [
+                    {
+                        "name": "MoMo",
+                        "logo": "/images/logo-business/MoMo-Logo-New.png",
+                        "desc": "E-wallet and mobile payment."
+                    },
+                    {
+                        "name": "NextPay",
+                        "logo": "/images/logo-business/logo-nextpay-01.png",
+                        "desc": "Digital transformation and electronic payment solutions."
+                    }
+                ]
+            },
+            {
+                "title": "Real Estate, Construction & Materials",
+                "clients": [
+                    {
+                        "name": "Becamex IDC",
+                        "logo": "/images/logo-business/becamex1.png",
+                        "desc": "Industrial park and urban infrastructure investment and development."
+                    },
+                    {
+                        "name": "Kim Oanh Group",
+                        "logo": "/images/logo-business/kimoanh.png",
+                        "desc": "Land and apartment real estate development."
+                    },
+                    {
+                        "name": "Newtecons",
+                        "logo": "/images/logo-business/Newtecons.png",
+                        "desc": "General construction contractor."
+                    },
+                    {
+                        "name": "Saint-Gobain",
+                        "logo": "/images/logo-business/Saint-Gobain_logo.svg.png",
+                        "desc": "Building materials manufacturing and distribution."
+                    }
+                ]
+            },
+            {
+                "title": "Healthcare, Pharmaceuticals & Medical Care",
+                "clients": [
+                    {
+                        "name": "Kim Dental",
+                        "logo": "/images/logo-business/kimdental.jpg",
+                        "desc": "Dental clinic system."
+                    },
+                    {
+                        "name": "Imexpharm",
+                        "logo": "images/logo-business/ImexPharm.png",
+                        "desc": "Pharmaceutical joint stock company."
+                    },
+                    {
+                        "name": "Mitalab",
+                        "logo": "/images/logo-business/mitalab.png",
+                        "desc": "Medical testing equipment and chemicals supplier."
+                    }
+                ]
+            },
+            {
+                "title": "Manufacturing, Consumer Goods & Agriculture",
+                "clients": [
+                    {
+                        "name": "Thiên Long",
+                        "logo": "/images/logo-business/Logo-Thien-Long.webp",
+                        "desc": "Stationery manufacturing."
+                    },
+                    {
+                        "name": "HABECO",
+                        "logo": "/images/logo-business/habeco.webp",
+                        "desc": "Hanoi Beer - Alcohol - Beverage Corporation."
+                    },
+                    {
+                        "name": "De Heus",
+                        "logo": "/images/logo-business/deheus.webp",
+                        "desc": "Animal feed and nutrition production (Netherlands)."
+                    },
+                    {
+                        "name": "Yokogawa",
+                        "logo": "/images/logo-business/Yokogawa_logo.svg.png",
+                        "desc": "Industrial automation and measurement solutions."
+                    },
+                    {
+                        "name": "ANT",
+                        "logo": "/images/logo-business/ANT.jpg",
+                        "desc": "Animal feed and nutrition production."
+                    }
+                ]
+            },
+            {
+                "title": "Education, Training & Media",
+                "clients": [
+                    {
+                        "name": "Nam Viet Group",
+                        "logo": "/images/logo-business/namviet.png",
+                        "desc": "Higher education."
+                    },
+                    {
+                        "name": "AIMNEXT",
+                        "logo": "/images/logo-business/AIMNEXT.jpg",
+                        "desc": "HR management training and consulting."
+                    },
+                    {
+                        "name": "Novaliches",
+                        "logo": "/images/logo-business/novaliches.png",
+                        "desc": "HR management training and consulting."
+                    },
+                    {
+                        "name": "NodeX",
+                        "logo": "/images/logo-business/NodeX.png",
+                        "desc": "HR management training and consulting."
+                    },
+                    {
+                        "name": "FBNC Vietnam",
+                        "logo": "/images/logo-business/FBNC_Vietnam_Logo.png",
+                        "desc": "Financial and business news television channel."
+                    },
+                    {
+                        "name": "PG Group",
+                        "logo": "/images/logo-business/Pggroup.webp",
+                        "desc": "Event organization"
+                    },
+                    {
+                        "name": "Lotus Ocean",
+                        "logo": "/images/logo-business/lotus-ocean.jpg",
+                        "desc": "Training and labor supply for Japan"
+                    }
+                ]
+            }
+        ]
+    },
+    "activities": {
+        "title": "Training Activities"
+    }
+}

@@ -10,6 +10,7 @@ import {
   Box,
   CheckCircle
 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const steps = [
   { title: "Tư vấn", desc: "Phân tích nhu cầu đào tạo", icon: BarChart3 },
@@ -23,6 +24,10 @@ const steps = [
 ];
 
 export const LMSWorkflowSection = () => {
+  const { t } = useTranslation('lms');
+  const steps = t('workflow.steps', { returnObjects: true }) as any[];
+  const icons = [BarChart3, FileText, Layers, LayoutTemplate, Video, Mic, Box, CheckCircle];
+
   return (
     <section className="bg-white py-28 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-40 pointer-events-none" />
@@ -31,7 +36,7 @@ export const LMSWorkflowSection = () => {
         <div className="text-center mb-24">
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-black uppercase">
-              Quy Trình Triển Khai
+              {t('workflow.title')}
             </h2>
             <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
           </Reveal>
@@ -39,7 +44,7 @@ export const LMSWorkflowSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-x-16 gap-y-20">
           {steps.map((step, index) => {
-            const Icon = step.icon;
+            const Icon = icons[index];
             return (
               <motion.div
                 key={index}

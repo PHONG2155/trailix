@@ -1,0 +1,172 @@
+{
+    "hero": {
+        "badge": "Giải pháp LMS trọn gói",
+        "title": {
+            "line1": "GIẢI PHÁP",
+            "line2": "XÂY DỰNG HỆ THỐNG LMS"
+        },
+        "subtitle": "Tiết kiệm chi phí – Triển khai nhanh chóng – Vận hành trọn đời.",
+        "demoCTA": "Đăng ký Demo Miễn phí",
+        "priceCTA": "Xem Bảng Giá"
+    },
+    "intro": {
+        "title": "Vấn Đề & Giải Pháp",
+        "problem": {
+            "title": "Bài Toán Đào Tạo Truyền Thống",
+            "items": [
+                "Chi phí tổ chức lớp học cao, khó mở rộng",
+                "Phụ thuộc giảng viên & địa lý",
+                "Không đo lường được hiệu quả đào tạo",
+                "Tri thức phân tán, không tái sử dụng"
+            ]
+        },
+        "solution": {
+            "title": "Giải Pháp Trailix LMS",
+            "description": "Trailix LMS là nền tảng đào tạo trực tuyến được may đo theo nhu cầu doanh nghiệp, giúp số hóa toàn bộ quy trình đào tạo và biến tri thức thành tài sản lâu dài.",
+            "items": [
+                "Sở hữu vĩnh viễn – không phí thuê bao",
+                "Chuẩn hóa kiến thức toàn doanh nghiệp",
+                "Đo lường & tối ưu hiệu quả đào tạo"
+            ]
+        }
+    },
+    "features": {
+        "title": "Tính Năng Nổi Bật Hệ Thống",
+        "exclusiveBadge": "Tính năng độc quyền",
+        "items": [
+            {
+                "title": "Quản lý khóa học đa dạng",
+                "desc": "Hệ thống hỗ trợ đầy đủ các định dạng học liệu như Video, Slide, PDF và chuẩn SCORM, giúp doanh nghiệp dễ dàng tổ chức, quản lý và cập nhật nội dung đào tạo tập trung trên một nền tảng duy nhất.",
+                "highlight": false
+            },
+            {
+                "title": "Kiểm tra & Đánh giá",
+                "desc": "Cho phép tạo bài kiểm tra trắc nghiệm và tự luận với hệ thống chấm điểm tự động, giúp đánh giá chính xác năng lực học viên và tiết kiệm thời gian cho giảng viên.",
+                "highlight": false
+            },
+            {
+                "title": "AI ChatBOT Độc quyền",
+                "desc": "Trợ lý ảo thông minh hỗ trợ học viên tra cứu thông tin khóa học, nội dung bài giảng 24/7, đồng thời giảm tải khối lượng công việc hỗ trợ cho giảng viên và bộ phận đào tạo.",
+                "highlight": true
+            },
+            {
+                "title": "Báo cáo chi tiết",
+                "desc": "Cung cấp dashboard trực quan giúp theo dõi tiến độ học tập, kết quả đào tạo của từng cá nhân và phòng ban, hỗ trợ nhà quản lý đưa ra quyết định kịp thời.",
+                "highlight": false
+            },
+            {
+                "title": "Tích hợp E-commerce",
+                "desc": "Hỗ trợ bán khóa học và thanh toán online, phù hợp cho các đơn vị kinh doanh giáo dục, trung tâm đào tạo hoặc cá nhân phát triển khóa học thương mại.",
+                "highlight": false
+            },
+            {
+                "title": "Bảo mật & Backup",
+                "desc": "Hệ thống vận hành trên hạ tầng Cloud Server hiện đại, đảm bảo an toàn dữ liệu với cơ chế sao lưu định kỳ và các tiêu chuẩn bảo mật cao.",
+                "highlight": false
+            }
+        ]
+    },
+    "comparison": {
+        "title": "So Sánh Giải Pháp LMS",
+        "headers": [
+            "LMS SaaS",
+            "Moodle",
+            "Trailix LMS"
+        ],
+        "rows": [
+            {
+                "label": "Sở hữu vĩnh viễn",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Không phí thuê bao",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Bàn giao source code",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "UX/UI hiện đại",
+                "values": [
+                    true,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "May đo theo yêu cầu",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "AI Chatbot đào tạo",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Hỗ trợ kỹ thuật riêng",
+                "values": [
+                    true,
+                    false,
+                    true
+                ]
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Quy Trình Triển Khai",
+        "steps": [
+            {
+                "title": "Tư vấn",
+                "desc": "Phân tích nhu cầu đào tạo"
+            },
+            {
+                "title": "Demo",
+                "desc": "Triển khai bài mẫu"
+            },
+            {
+                "title": "Kịch bản",
+                "desc": "Tối ưu nội dung"
+            },
+            {
+                "title": "Slide",
+                "desc": "Thiết kế học liệu"
+            },
+            {
+                "title": "Animation",
+                "desc": "Sản xuất video"
+            },
+            {
+                "title": "Voice AI",
+                "desc": "Lồng tiếng tự nhiên"
+            },
+            {
+                "title": "Quiz",
+                "desc": "Tương tác học tập"
+            },
+            {
+                "title": "SCORM",
+                "desc": "Bàn giao & tích hợp"
+            }
+        ]
+    }
+}

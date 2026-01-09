@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export const LmsHeroSection = () => {
+  const { t } = useTranslation('lms');
+
   const scrollToContact = () => {
     const el = document.getElementById("contact-form");
     if (el) el.scrollIntoView({ behavior: "smooth" });
@@ -10,7 +13,7 @@ export const LmsHeroSection = () => {
   return (
     // ĐÃ SỬA: Thêm min-h-screen, flex, justify-center để full màn hình và căn giữa
     <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden bg-white py-20">
-      
+
       {/* ===== BACKGROUND (GIỐNG ELEARNING HERO) ===== */}
 
       {/* Grid pattern */}
@@ -38,7 +41,7 @@ export const LmsHeroSection = () => {
         >
           <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse" />
           <span className="text-xs font-bold uppercase tracking-widest text-brand-red">
-            Giải pháp LMS trọn gói
+            {t('hero.badge')}
           </span>
         </motion.div>
 
@@ -50,9 +53,9 @@ export const LmsHeroSection = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 leading-tight mb-6"
         >
-          GIẢI PHÁP <br />
+          {t('hero.title.line1')} <br />
           <span className="text-brand-red">
-            XÂY DỰNG HỆ THỐNG LMS
+            {t('hero.title.line2')}
           </span>
         </motion.h1>
 
@@ -64,7 +67,7 @@ export const LmsHeroSection = () => {
           viewport={{ once: true }}
           className="text-lg md:text-xl text-gray-600 font-medium max-w-3xl mx-auto mb-12"
         >
-          Tiết kiệm chi phí – Triển khai nhanh chóng – Vận hành trọn đời.
+          {t('hero.subtitle')}
         </motion.p>
 
         {/* CTA */}
@@ -79,7 +82,7 @@ export const LmsHeroSection = () => {
             onClick={scrollToContact}
             className="inline-flex items-center gap-2 bg-brand-red text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-red-500/40 hover:bg-red-700 transition"
           >
-            Đăng ký Demo Miễn phí
+            {t('hero.demoCTA')}
             <ArrowRight className="w-5 h-5" />
           </button>
 
@@ -87,7 +90,7 @@ export const LmsHeroSection = () => {
             onClick={scrollToContact}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold border border-gray-300 text-gray-800 hover:border-brand-red hover:text-brand-red transition"
           >
-            Xem Bảng Giá
+            {t('hero.priceCTA')}
           </button>
         </motion.div>
       </div>

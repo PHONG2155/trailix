@@ -1,0 +1,129 @@
+{
+    "hero": {
+        "badge": "Giải pháp AI Chatbot cho doanh nghiệp",
+        "title": {
+            "line1": "TRỢ LÝ AI CHATBOT",
+            "line2": "TỰ ĐỘNG HÓA TƯ VẤN & CSKH"
+        },
+        "subtitle": "Hệ thống chatbot thông minh giúp doanh nghiệp phản hồi khách hàng 24/7, giảm tải nhân sự và gia tăng tỷ lệ chuyển đổi.",
+        "demoCTA": "Nhận demo Chatbot",
+        "consultCTA": "Tư vấn giải pháp"
+    },
+    "intro": {
+        "title": "Vấn Đề & Giải Pháp",
+        "problem": {
+            "title": "Khách hàng chờ đợi – Doanh thu bị bỏ lỡ",
+            "items": [
+                "Khách nhắn tin ngoài giờ làm việc",
+                "CSKH phản hồi chậm do quá tải",
+                "Mất khách vì không tư vấn kịp thời",
+                "Nhân sự lặp lại cùng câu hỏi mỗi ngày"
+            ]
+        },
+        "solution": {
+            "title": "Giải pháp AI Chatbot Trailix",
+            "description": "AI Chatbot giúp doanh nghiệp tự động hóa tư vấn khách hàng 24/7, trả lời chính xác dựa trên dữ liệu nội bộ.",
+            "items": [
+                "Phản hồi ngay tức thì",
+                "Giảm tải nhân sự CSKH",
+                "Tăng tỷ lệ chuyển đổi"
+            ]
+        }
+    },
+    "comparison": {
+        "title": "So Sánh Giải Pháp",
+        "headers": [
+            "Nhân sự CSKH",
+            "Rule Bot",
+            "Trailix AI"
+        ],
+        "rows": [
+            {
+                "label": "Phản hồi 24/7",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Hiểu ngữ cảnh hội thoại",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Huấn luyện theo dữ liệu DN",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Tăng doanh thu tự động",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Không cần nhân sự trực chat",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            }
+        ]
+    },
+    "features": {
+        "title": "Tính Năng Nổi Bật",
+        "items": [
+            {
+                "title": "Tư vấn khách hàng 24/7",
+                "desc": "Chatbot hoạt động liên tục, không bỏ sót khách hàng.",
+                "highlight": false
+            },
+            {
+                "title": "AI hiểu ngữ cảnh",
+                "desc": "Phân tích ý định, trả lời chính xác như nhân sự thật.",
+                "highlight": true
+            },
+            {
+                "title": "Huấn luyện theo dữ liệu doanh nghiệp",
+                "desc": "Học từ website, tài liệu, FAQ nội bộ.",
+                "highlight": false
+            },
+            {
+                "title": "Báo cáo & tối ưu chuyển đổi",
+                "desc": "Theo dõi hiệu quả tư vấn và hành vi khách hàng.",
+                "highlight": false
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Quy Trình Triển Khai",
+        "steps": [
+            {
+                "title": "Tư vấn",
+                "desc": "Phân tích nhu cầu & mục tiêu"
+            },
+            {
+                "title": "Thu thập dữ liệu",
+                "desc": "Website, tài liệu, kịch bản"
+            },
+            {
+                "title": "Huấn luyện AI",
+                "desc": "Tinh chỉnh theo dữ liệu DN"
+            },
+            {
+                "title": "Triển khai",
+                "desc": "Gắn chatbot vào hệ thống"
+            }
+        ]
+    }
+}

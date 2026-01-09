@@ -1,0 +1,160 @@
+{
+    "hero": {
+        "title": {
+            "line1": "MASTER AI",
+            "line2": "MASTER YOUR FUTURE"
+        },
+        "subtitle": "In-depth training in Prompt Engineering & Automation. Transform AI into your exclusive competitive advantage in the digital age.",
+        "cta": {
+            "roadmap": "Create Learning Path",
+            "demo": "Watch Demo"
+        }
+    },
+    "roadmap": {
+        "title": "Design Your Roadmap",
+        "titleHighlight": "Intelligently",
+        "subtitle": "The AI system will analyze your job position to create the most accurate personalized curriculum.",
+        "form": {
+            "roleLabel": "Your Position",
+            "rolePlaceholder": "Select position...",
+            "roleCustomPlaceholder": "Enter specific position...",
+            "levelLabel": "Current AI Experience Level",
+            "levelPlaceholder": "Select level...",
+            "levelCustomPlaceholder": "Enter specific level...",
+            "generate": "Generate Roadmap",
+            "thinking": "Thinking...",
+            "other": "Other"
+        },
+        "loader": {
+            "init": "Initializing neural network...",
+            "analyze": "Analyzing job role requirements...",
+            "fetch": "Fetching Prompt Engineering modules...",
+            "optimize": "Optimizing learning path...",
+            "compile": "Compiling roadmap..."
+        },
+        "result": {
+            "title": "Personalized Roadmap",
+            "consultation": "Would you like detailed guidance on this roadmap?",
+            "registerBtn": "Register for In-depth Consultation"
+        },
+        "emptyState": {
+            "title": "Waiting for Input",
+            "subtitle": "Select position and level to start AI"
+        },
+        "roles": {
+            "marketing": "Marketing",
+            "sales": "Sales",
+            "developer": "Developer",
+            "hr": "Human Resources (HR)",
+            "manager": "Manager / Director",
+            "designer": "Graphic Designer",
+            "content_creator": "Content Creator",
+            "data_analyst": "Data Analyst",
+            "educator": "Educator / Trainer",
+            "event_planner": "Event Planner",
+            "admin": "Admin / Assistant"
+        },
+        "levels": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced"
+        }
+    },
+    "courses": {
+        "title": "Course",
+        "titleHighlight": "System",
+        "subtitle": "Curriculum tailored to fit specific industry groups, helping you apply immediately at work.",
+        "items": [
+            {
+                "id": "prompt-eng",
+                "title": "Learn Prompt Engineering",
+                "description": "Command AI techniques, optimize prompts to get the most accurate results for each task.",
+                "category": "Core"
+            },
+            {
+                "id": "data-analysis",
+                "title": "Data Analysis",
+                "description": "Use AI to understand data, clean datasets and find important insights from reports.",
+                "category": "Technical"
+            },
+            {
+                "id": "ai-assistants",
+                "title": "Create AI Assistants",
+                "description": "Build personalized virtual assistants (GPTs) to automate repetitive workflows.",
+                "category": "Technical"
+            },
+            {
+                "id": "planning",
+                "title": "Planning",
+                "description": "Apply AI for strategy, project roadmapping and effective time management.",
+                "category": "Business"
+            },
+            {
+                "id": "slides",
+                "title": "Create Presentation Slides",
+                "description": "Automate professional slide content creation and layout in minutes.",
+                "category": "Business"
+            },
+            {
+                "id": "content-creation",
+                "title": "Content Creation",
+                "description": "Create multi-channel content, from Facebook posts to in-depth SEO articles.",
+                "category": "Creative"
+            },
+            {
+                "id": "sales-scripts",
+                "title": "Sales Consulting Scripts",
+                "description": "Build sales closing scripts, handle objections and automate customer care.",
+                "category": "Business"
+            },
+            {
+                "id": "diagrams",
+                "title": "Create Diagrams",
+                "description": "Turn complex ideas into mind maps, flowcharts or visual diagrams.",
+                "category": "Technical"
+            },
+            {
+                "id": "deepsearch",
+                "title": "DeepSearch Research",
+                "description": "In-depth information mining skills, synthesize knowledge from thousands of sources.",
+                "category": "Core"
+            },
+            {
+                "id": "learning-ai",
+                "title": "Learning with AI",
+                "description": "Turn AI into your personal 1:1 tutor to learn any new skill 5x faster.",
+                "category": "Core"
+            },
+            {
+                "id": "design-uiux",
+                "title": "Design",
+                "description": "Support design ideas, layout and color schemes for media publications.",
+                "category": "Creative"
+            },
+            {
+                "id": "video-creation",
+                "title": "Video Creation",
+                "description": "Write scripts, create virtual characters and automatically produce videos with AI.",
+                "category": "Creative"
+            },
+            {
+                "id": "graphic-design",
+                "title": "Graphic Design",
+                "description": "Create high-quality graphic resources, vectors and photo editing.",
+                "category": "Creative"
+            },
+            {
+                "id": "event-creativity",
+                "title": "Event Creativity",
+                "description": "Develop concepts, MC scripts and unique interactive activities for events.",
+                "category": "Creative"
+            },
+            {
+                "id": "chatbots",
+                "title": "Enterprise Chatbot",
+                "description": "Deploy 24/7 automated customer service system for businesses.",
+                "category": "Technical"
+            }
+        ]
+    }
+}

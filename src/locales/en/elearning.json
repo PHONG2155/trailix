@@ -1,0 +1,152 @@
+{
+    "hero": {
+        "badge": "Enterprise 4.0 Solution",
+        "title": {
+            "line1": "DIGITIZE E-LEARNING COURSES",
+            "line2": "WITH AI TECHNOLOGY"
+        },
+        "subtitle": "Solutions to transform traditional training content into modern e-learning, automated with AI to help businesses save costs, accelerate deployment and improve internal training effectiveness."
+    },
+    "benefits": {
+        "items": [
+            {
+                "title": "Save 70–90% costs",
+                "desc": "Dramatically reduce costs compared to traditional video production, without dependency on production teams, equipment and complex shooting schedules."
+            },
+            {
+                "title": "Outstanding deployment speed",
+                "desc": "Produce lessons in just a few hours to 1 day, easily update content when there are changes from the enterprise."
+            },
+            {
+                "title": "High learning quality",
+                "desc": "Vivid 2D/3D animation, natural AI voice, helps increase completion rate and retention of learning content."
+            },
+            {
+                "title": "SCORM / LMS Standard",
+                "desc": "Easy integration with popular LMS systems like Moodle, Docebo, Cornerstone or existing internal training platforms."
+            },
+            {
+                "title": "Easy to scale",
+                "desc": "Train thousands of staff simultaneously without increasing costs linearly, suitable for fast-growing businesses."
+            }
+        ]
+    },
+    "impact": {
+        "title": "Meaning & Impact",
+        "employee": {
+            "title": "For Employees",
+            "items": [
+                "Proactive learning anytime, anywhere on multiple devices.",
+                "Visual, vivid, easy to understand, easy to remember content.",
+                "Increase interest and ability to apply in practice."
+            ]
+        },
+        "manager": {
+            "title": "For Managers",
+            "items": [
+                "Standardize training content across the system.",
+                "Track progress, evaluate learning effectiveness instantly.",
+                "Save resources for organizing traditional classes."
+            ]
+        }
+    },
+    "comparison": {
+        "title": "Deployment method comparison",
+        "subtitle": "Clear difference between traditional e-learning production method and Trailix's AI-automated digitization solution.",
+        "traditional": "Traditional",
+        "trailix": "Trailix AI",
+        "rows": [
+            {
+                "label": "Technology",
+                "traditional": "Manual production, human-dependent",
+                "trailix": "Automated with AI"
+            },
+            {
+                "label": "Cost / minute",
+                "traditional": "10 – 30 million VND",
+                "trailix": "1.2 – 2.4 million VND"
+            },
+            {
+                "label": "Production time",
+                "traditional": "3 – 15 days / video",
+                "trailix": "Few hours – 1 day"
+            },
+            {
+                "label": "Scalability",
+                "traditional": "Difficult, cost increases linearly",
+                "trailix": "Unlimited scale"
+            }
+        ]
+    },
+    "process": {
+        "title": "Deployment process",
+        "steps": [
+            {
+                "title": "Consultation",
+                "desc": "Analyze training needs"
+            },
+            {
+                "title": "Demo",
+                "desc": "Deploy sample lesson"
+            },
+            {
+                "title": "Script",
+                "desc": "Optimize content"
+            },
+            {
+                "title": "Slide",
+                "desc": "Design learning materials"
+            },
+            {
+                "title": "Animation",
+                "desc": "Video production"
+            },
+            {
+                "title": "Voice AI",
+                "desc": "Natural dubbing"
+            },
+            {
+                "title": "Quiz",
+                "desc": "Learning interactions"
+            },
+            {
+                "title": "SCORM",
+                "desc": "Handover & integration"
+            }
+        ]
+    },
+    "pricing": {
+        "basic": {
+            "title": "Basic digitization package",
+            "subtitle": "(Content already available)",
+            "price": "1,200,000",
+            "unit": "VND / minute",
+            "features": [
+                "Video & Slide",
+                "AI Voice",
+                "Basic Quiz",
+                "SCORM Package"
+            ],
+            "button": "Get consultation"
+        },
+        "comprehensive": {
+            "title": "Comprehensive deployment package",
+            "subtitle": "(From idea to completion)",
+            "price": "2,400,000",
+            "unit": "VND / minute",
+            "badge": "RECOMMENDED",
+            "features": [
+                "Includes basic package",
+                "Instructional Design (ID)",
+                "Advanced Animation",
+                "LMS integration support"
+            ],
+            "button": "Choose this package"
+        }
+    },
+    "pricingCTA": {
+        "text": "Pricing can be flexibly adjusted according to project scale.",
+        "subtext": "Contact to receive a free demo of a sample module.",
+        "button": "Detailed consultation"
+    }
+}

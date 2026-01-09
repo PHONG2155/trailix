@@ -1,29 +1,11 @@
 import { FileText, Database, Bot, Rocket } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 export const ChatbotWorkflowSection = () => {
-  const steps = [
-    {
-      title: "Tư vấn",
-      desc: "Phân tích nhu cầu & mục tiêu",
-      icon: FileText,
-    },
-    {
-      title: "Thu thập dữ liệu",
-      desc: "Website, tài liệu, kịch bản",
-      icon: Database,
-    },
-    {
-      title: "Huấn luyện AI",
-      desc: "Tinh chỉnh theo dữ liệu DN",
-      icon: Bot,
-    },
-    {
-      title: "Triển khai",
-      desc: "Gắn chatbot vào hệ thống",
-      icon: Rocket,
-    },
-  ];
+  const { t } = useTranslation('chatbot');
+  const steps = t('workflow.steps', { returnObjects: true }) as any[];
+  const icons = [FileText, Database, Bot, Rocket];
 
   return (
     <section className="relative py-32 overflow-hidden">
@@ -49,7 +31,7 @@ export const ChatbotWorkflowSection = () => {
         {/* Title */}
         <div className="text-center mb-24">
           <h2 className="text-3xl md:text-5xl font-black uppercase text-gray-900">
-            Quy Trình Triển Khai
+            {t('workflow.title')}
           </h2>
           <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
         </div>
@@ -57,7 +39,7 @@ export const ChatbotWorkflowSection = () => {
         {/* Workflow */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 items-stretch">
           {steps.map((step, index) => {
-            const Icon = step.icon;
+            const Icon = icons[index];
 
             return (
               <motion.div

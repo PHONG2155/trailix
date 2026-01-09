@@ -20,24 +20,25 @@ export interface Roadmap {
 }
 
 export enum JobRole {
-  Marketing = 'Marketing / Tiếp thị',
-  Sales = 'Sales / Bán hàng',
-  Developer = 'Lập trình viên',
-  HR = 'Nhân sự (HR)',
-  Manager = 'Quản lý / Giám đốc',
-  Designer = 'Thiết kế đồ họa',
-  ContentCreator = 'Sáng tạo nội dung',
-  DataAnalyst = 'Phân tích dữ liệu',
-  Educator = 'Giáo dục / Đào tạo',
-  EventPlanner = 'Tổ chức sự kiện',
-  Admin = 'Hành chính / Trợ lý'
+  Marketing = 'marketing',
+  Sales = 'sales',
+  Developer = 'developer',
+  HR = 'hr',
+  Manager = 'manager',
+  Designer = 'designer',
+  ContentCreator = 'content_creator',
+  DataAnalyst = 'data_analyst',
+  Educator = 'educator',
+  EventPlanner = 'event_planner',
+  Admin = 'admin'
 }
 
 export enum ExperienceLevel {
-  Beginner = 'Mới bắt đầu (Beginner)',
-  Intermediate = 'Đã có kinh nghiệm (Intermediate)',
-  Advanced = 'Chuyên gia (Advanced)'
+  Beginner = 'beginner',
+  Intermediate = 'intermediate',
+  Advanced = 'advanced'
 }
+
 export interface BlogPost {
   id: string;
   title: string;

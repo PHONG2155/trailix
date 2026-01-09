@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "home": "Home",
+        "enterprise": "Enterprise",
+        "courses": "Courses",
+        "blog": "Blog",
+        "digitize": "Digitize Content",
+        "lms": "LMS",
+        "chatbot": "Chatbot"
+    },
+    "footer": {
+        "email": "Email",
+        "hotline": "Hotline",
+        "website": "Website",
+        "address": "Address",
+        "addressValue": "Ho Chi Minh, Vietnam",
+        "copyright": "© 2025 Trailix - AI Research and Training Center. All rights reserved."
+    },
+    "language": {
+        "vietnamese": "Tiếng Việt",
+        "english": "English",
+        "switch": "Switch Language"
+    },
+    "buttons": {
+        "learnMore": "Learn More",
+        "register": "Register Now",
+        "send": "Send",
+        "viewAll": "View All",
+        "downloadRoadmap": "Download AI Learning Roadmap",
+        "backToTop": "Back to Top"
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "backHome": "Back to Homepage"
+    }
+}

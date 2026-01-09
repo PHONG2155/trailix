@@ -1,0 +1,506 @@
+{
+    "hero": {
+        "badge": "Đối tác chiến lược",
+        "title": {
+            "line1": "ĐÀO TẠO AI",
+            "line2": "CHO DOANH NGHIỆP"
+        },
+        "features": [
+            "Chương trình đào tạo chuyên sâu & may đo riêng",
+            "Đào tạo đúng trọng tâm, thực chiến 100%",
+            "Giảng viên chuyên gia nhiều năm kinh nghiệm",
+            "Cam kết: 85% nhân sự ứng dụng được ngay"
+        ],
+        "cta": "ĐĂNG KÝ TƯ VẤN"
+    },
+    "quote": {
+        "text": "AI sẽ không thay thế con người. Nhưng những người biết sử dụng AI sẽ thay thế những người không biết."
+    },
+    "impact": {
+        "title": "Ý Nghĩa & Tác Động",
+        "employee": {
+            "title": "DÀNH CHO NHÂN VIÊN",
+            "benefits": [
+                {
+                    "title": "Tiết kiệm 4-6h/ngày",
+                    "desc": "Tăng năng suất làm việc 300-500%"
+                },
+                {
+                    "title": "Nâng cao chất lượng",
+                    "desc": "Giảm thiểu sai sót trong vận hành"
+                }
+            ]
+        },
+        "manager": {
+            "title": "DÀNH CHO QUẢN LÝ",
+            "benefits": [
+                {
+                    "title": "Ra quyết định chính xác",
+                    "desc": "Dự báo xu hướng & hiệu quả kinh doanh"
+                },
+                {
+                    "title": "Tiết kiệm thời gian",
+                    "desc": "Thời gian làm báo cáo giảm 90%"
+                }
+            ]
+        }
+    },
+    "training": {
+        "title": "Lĩnh Vực Đào Tạo",
+        "fields": [
+            {
+                "title": "AI Quản Trị",
+                "desc": "Tối ưu ra quyết định."
+            },
+            {
+                "title": "AI Nhân Sự",
+                "desc": "Tuyển dụng tự động."
+            },
+            {
+                "title": "AI Marketing",
+                "desc": "Sáng tạo Content."
+            },
+            {
+                "title": "AI Sales",
+                "desc": "Tăng tỷ lệ chốt."
+            },
+            {
+                "title": "AI Thiết Kế",
+                "desc": "Ấn phẩm tự động."
+            },
+            {
+                "title": "AI Sự Kiện",
+                "desc": "Kịch bản & Visual."
+            },
+            {
+                "title": "AI F&B",
+                "desc": "Menu & Vận hành."
+            },
+            {
+                "title": "Thiết Kế Riêng",
+                "desc": "Giải pháp may đo."
+            }
+        ]
+    },
+    "frameworks": {
+        "title": "Công Cụ & Framework AI",
+        "durationLabel": "Thời lượng",
+        "targetLabel": "Đối tượng",
+        "viewDetailsBtn": "Xem chi tiết khóa học",
+        "packages": [
+            {
+                "id": "01",
+                "title": "NỀN TẢNG AI – PROMPT & TRỢ LÝ CÁ NHÂN",
+                "duration": "01 Ngày",
+                "target": "Toàn bộ nhân viên",
+                "link": "/prompt-advanced",
+                "modules": [
+                    {
+                        "title": "MODULE 1: NỀN TẢNG CƠ BẢN VỀ AI",
+                        "items": [
+                            "Phân loại các khái niệm AI",
+                            "Ứng dụng thực tế của Generative AI",
+                            "Lưu ý quan trọng khi sử dụng AI",
+                            "Làm quen với các công cụ AI phổ biến"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: CÔNG THỨC VIẾT PROMPT CƠ BẢN",
+                        "items": [
+                            "Hiểu về Prompt và tầm quan trọng",
+                            "Công thức RTIO Framework",
+                            "Ngôn ngữ tối ưu khi viết prompt"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: KỸ THUẬT PROMPT NÂNG CAO",
+                        "items": [
+                            "Kỹ thuật viết prompt theo vai trò",
+                            "Định dạng markdown trong prompt",
+                            "Cung cấp thông tin đầu vào",
+                            "Ràng buộc kết quả đầu ra"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: AI ASSISTANT",
+                        "items": [
+                            "Phân biệt các loại AI cá nhân",
+                            "Các kỹ thuật học máy cho AI cá nhân",
+                            "Kỹ thuật few-shot learning",
+                            "Thiết kế AI Assistant cá nhân"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "02",
+                "title": "AI TRONG HỌC TẬP & NGHIÊN CỨU",
+                "duration": "0.5 Ngày",
+                "target": "R&D, Vận hành, Nghiên cứu",
+                "link": "/office-ai",
+                "modules": [
+                    {
+                        "title": "MODULE 1: DEEP RESEARCH",
+                        "items": [
+                            "Tính năng DeepSearch",
+                            "Cách sử dụng DeepSearch hiệu quả",
+                            "Khi nào nên và không nên dùng"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: PHÂN TÍCH \"TÀI LIỆU DÀI\"",
+                        "items": [
+                            "Mục đích và cách dùng NotebookLLM",
+                            "Tối ưu nội dung tài liệu đầu vào",
+                            "Tạo giọng đọc tóm tắt nội dung"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: TẠO SƠ ĐỒ, QUY TRÌNH",
+                        "items": [
+                            "Hiểu về định dạng Mermaid Diagram",
+                            "Sử dụng Claude để tạo sơ đồ",
+                            "Tối ưu, chỉnh sửa sơ đồ"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: XÂY DỰNG KNOWLEDGE BASE",
+                        "items": [
+                            "Xây dựng kho tri thức cho tổ chức",
+                            "Tối ưu hóa tìm kiếm nội bộ"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "03",
+                "title": "PHÂN TÍCH DỮ LIỆU & QUẢN LÝ DỰ ÁN",
+                "duration": "01 Ngày",
+                "target": "Toàn bộ cán bộ nhân viên",
+                "link": "/ai-data",
+                "modules": [
+                    {
+                        "title": "MODULE 1: PHÂN TÍCH DỮ LIỆU VỚI AI",
+                        "items": [
+                            "Các loại dữ liệu có thể phân tích",
+                            "Kỹ thuật Chain-of-thought",
+                            "Phân tích dữ liệu lớn có cấu trúc"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: TẠO BÁO CÁO & SLIDE",
+                        "items": [
+                            "Xây dựng cấu trúc báo cáo logic",
+                            "Trực quan hóa dữ liệu với AI",
+                            "Sử dụng Gamma để tạo slide"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: LẬP KẾ HOẠCH & QLDA",
+                        "items": [
+                            "Thiết lập mục tiêu mô hình SMART",
+                            "Phân bổ nguồn lực mô hình RACI",
+                            "Mô hình Eisenhower trong ưu tiên việc"
+                        ]
+                    },
+                    {
+                        "title": "TỰ ĐỘNG HÓA QUY TRÌNH",
+                        "items": [
+                            "Kỹ thuật prompt Self-Consistency",
+                            "Tự động hóa quy trình báo cáo"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "04",
+                "title": "SÁNG TẠO NỘI DUNG ĐA PHƯƠNG TIỆN",
+                "duration": "01 Ngày",
+                "target": "Marketing, Design, Content",
+                "link": "/ai-to-event",
+                "modules": [
+                    {
+                        "title": "MODULE 1: GIỚI THIỆU AI & PROMPT MKT",
+                        "items": [
+                            "Vai trò AI trong chiến lược Marketing",
+                            "Xu hướng AI Marketing 2025",
+                            "Cấu trúc prompt nền tảng cho MKT"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 2: CONTENT QUẢNG CÁO & CHUYỂN ĐỔI",
+                        "items": [
+                            "Xây dựng nội dung quảng cáo",
+                            "Xây dựng Bộ câu hook, viral",
+                            "Framework 3-Second Hook",
+                            "Ma trận P-A-S cho video 15s"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 3: SÁNG TẠO ĐA PHƯƠNG TIỆN",
+                        "items": [
+                            "Thiết kế hình ảnh thương hiệu",
+                            "Xây dựng \"Model AI\" cho bản thân",
+                            "Sản xuất ấn phẩm hàng loạt"
+                        ]
+                    },
+                    {
+                        "title": "MODULE 4: VIDEO AI CHUYÊN NGHIỆP",
+                        "items": [
+                            "Phát triển ý tưởng video quảng cáo",
+                            "Quy trình nhân bản hóa bản thân",
+                            "Tạo video từ văn bản và hình ảnh"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "ĐĂNG KÝ TƯ VẤN",
+        "form": {
+            "name": "Họ và Tên",
+            "email": "Email",
+            "phone": "Số điện thoại",
+            "phonePlaceholder": "091 234 56 78",
+            "customerType": "Bạn là",
+            "customerTypePlaceholder": "Vui lòng chọn...",
+            "position": "Chức vụ",
+            "positionPlaceholder": "VD: Marketing Manager",
+            "companyName": "Tên công ty",
+            "companyPlaceholder": "VD: Công ty ABC",
+            "service": "Dịch vụ cần tư vấn",
+            "servicePlaceholder": "Chọn dịch vụ...",
+            "note": "Ghi chú thêm (Nếu có)",
+            "submit": "Gửi Yêu Cầu Tư Vấn",
+            "submitting": "Đang xử lý...",
+            "required": "*"
+        },
+        "customerTypes": [
+            "Cá nhân",
+            "Doanh nghiệp"
+        ],
+        "services": [
+            "Đào tạo AI in-house",
+            "Số hóa Bài Giảng",
+            "Xây dựng hệ thống LMS",
+            "Xây dựng công cụ AI ChatBot",
+            "Khóa học AI cá nhân",
+            "Tư vấn giải pháp khác"
+        ],
+        "validation": {
+            "nameEmail": "Vui lòng điền đầy đủ Họ tên và Email.",
+            "phone": "Vui lòng nhập số điện thoại.",
+            "phoneInvalid": "Số điện thoại không hợp lệ (Vui lòng nhập 10 số, bắt đầu bằng 0).",
+            "customerType": "Vui lòng chọn loại khách hàng.",
+            "service": "Vui lòng chọn dịch vụ cần tư vấn."
+        },
+        "messages": {
+            "success": "Cảm ơn bạn đã đăng ký! Chúng tôi sẽ liên hệ với bạn sớm nhất.",
+            "error": "Gửi thất bại"
+        }
+    },
+    "testimonials": {
+        "title": "Khách Hàng Nói Gì",
+        "items": [
+            {
+                "content": "Trước cứ cật lực với Photoshop, giờ nhờ AI mà bùm! Cả thế giới mở ra. Ý tưởng cứ thế bay thành hình ảnh.",
+                "course": "AI CREATIVE MASTERY",
+                "name": "Bích Trâm - Freelancer"
+            },
+            {
+                "content": "Tiệm bánh nhỏ của mình giờ tự tay làm được logo, banner xịn sò không tốn tiền thuê ngoài.",
+                "course": "AI CREATIVE MASTERY",
+                "name": "Châu Oanh - Chủ Micro SME"
+            },
+            {
+                "content": "Hiệu quả công việc tăng gấp đôi, tôi được thăng chức lên Quản lý Marketing chỉ sau 6 tháng.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Hạnh Nguyên - Chuyên viên MKT"
+            },
+            {
+                "content": "Doanh nghiệp của tôi gặp khó khăn trong quản lý dữ liệu. Sau khi áp dụng AI, năng suất tăng 30%.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Minh Trung - GĐ Vận hành"
+            },
+            {
+                "content": "AI không phải là kẻ thù mà là công cụ. Tôi đã dùng AI để phân tích dữ liệu và cá nhân hóa nội dung.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Ẩn Danh - Content"
+            },
+            {
+                "content": "Trước đây tôi lo lắng về tương lai. Nhưng sau khóa học, tôi hoàn toàn thay đổi suy nghĩ.",
+                "course": "AI MARKETING MASTERY",
+                "name": "Ẩn Danh - MKT"
+            }
+        ]
+    },
+    "clients": {
+        "title": "Đối Tác & Khách Hàng",
+        "categories": [
+            {
+                "title": "Công nghệ & Viễn thông",
+                "clients": [
+                    {
+                        "name": "Google",
+                        "logo": "/images/logo-business/google-logo-transparent.png",
+                        "desc": "Tập đoàn công nghệ đa quốc gia."
+                    },
+                    {
+                        "name": "Viettel",
+                        "logo": "/images/logo-business/viettel.png",
+                        "desc": "Tập đoàn Công nghiệp - Viễn thông Quân đội."
+                    },
+                    {
+                        "name": "CMC Corp",
+                        "logo": "/images/logo-business/CMC_logo.png",
+                        "desc": "Tập đoàn công nghệ thông tin - viễn thông."
+                    },
+                    {
+                        "name": "Haravan",
+                        "logo": "/images/logo-business/harvan.svg",
+                        "desc": "Cung cấp giải pháp bán lẻ, thương mại điện tử và marketing."
+                    },
+                    {
+                        "name": "Grab",
+                        "logo": "/images/logo-business/Grab_Logo.svg.png",
+                        "desc": "Siêu ứng dụng (Gọi xe, giao hàng, đồ ăn...)."
+                    }
+                ]
+            },
+            {
+                "title": "Tài chính & Fintech",
+                "clients": [
+                    {
+                        "name": "MoMo",
+                        "logo": "/images/logo-business/MoMo-Logo-New.png",
+                        "desc": "Ví điện tử và thanh toán di động."
+                    },
+                    {
+                        "name": "NextPay",
+                        "logo": "/images/logo-business/logo-nextpay-01.png",
+                        "desc": "Giải pháp chuyển đổi số và thanh toán điện tử."
+                    }
+                ]
+            },
+            {
+                "title": "Bất động sản, Xây dựng & Vật liệu",
+                "clients": [
+                    {
+                        "name": "Becamex IDC",
+                        "logo": "/images/logo-business/becamex1.png",
+                        "desc": "Đầu tư và phát triển hạ tầng công nghiệp, đô thị."
+                    },
+                    {
+                        "name": "Kim Oanh Group",
+                        "logo": "/images/logo-business/kimoanh.png",
+                        "desc": "Phát triển bất động sản đất nền, căn hộ."
+                    },
+                    {
+                        "name": "Newtecons",
+                        "logo": "/images/logo-business/Newtecons.png",
+                        "desc": "Tổng thầu xây dựng."
+                    },
+                    {
+                        "name": "Saint-Gobain",
+                        "logo": "/images/logo-business/Saint-Gobain_logo.svg.png",
+                        "desc": "Sản xuất và phân phối vật liệu xây dựng."
+                    }
+                ]
+            },
+            {
+                "title": "Y tế, Dược phẩm & Chăm sóc sức khỏe",
+                "clients": [
+                    {
+                        "name": "Kim Dental",
+                        "logo": "/images/logo-business/kimdental.jpg",
+                        "desc": "Hệ thống nha khoa."
+                    },
+                    {
+                        "name": "Imexpharm",
+                        "logo": "images/logo-business/ImexPharm.png",
+                        "desc": "Công ty cổ phần dược phẩm."
+                    },
+                    {
+                        "name": "Mitalab",
+                        "logo": "/images/logo-business/mitalab.png",
+                        "desc": "Cung cấp thiết bị và hóa chất xét nghiệm y tế."
+                    }
+                ]
+            },
+            {
+                "title": "Sản xuất, Hàng tiêu dùng & Nông nghiệp",
+                "clients": [
+                    {
+                        "name": "Thiên Long",
+                        "logo": "/images/logo-business/Logo-Thien-Long.webp",
+                        "desc": "Sản xuất văn phòng phẩm."
+                    },
+                    {
+                        "name": "HABECO",
+                        "logo": "/images/logo-business/habeco.webp",
+                        "desc": "Tổng công ty Bia - Rượu - Nước giải khát Hà Nội."
+                    },
+                    {
+                        "name": "De Heus",
+                        "logo": "/images/logo-business/deheus.webp",
+                        "desc": "Sản xuất thức ăn chăn nuôi và dinh dưỡng động vật (Hà Lan)."
+                    },
+                    {
+                        "name": "Yokogawa",
+                        "logo": "/images/logo-business/Yokogawa_logo.svg.png",
+                        "desc": "Giải pháp tự động hóa công nghiệp, đo lường."
+                    },
+                    {
+                        "name": "ANT",
+                        "logo": "/images/logo-business/ANT.jpg",
+                        "desc": "Sản xuất thức ăn chăn nuôi và dinh dưỡng động vật."
+                    }
+                ]
+            },
+            {
+                "title": "Giáo dục, Đào tạo & Truyền thông",
+                "clients": [
+                    {
+                        "name": "Tập đoàn Nam Việt",
+                        "logo": "/images/logo-business/namviet.png",
+                        "desc": "Giáo dục đại học."
+                    },
+                    {
+                        "name": "AIMNEXT",
+                        "logo": "/images/logo-business/AIMNEXT.jpg",
+                        "desc": "Đào tạo và tư vấn quản lý nhân sự."
+                    },
+                    {
+                        "name": "Novaliches",
+                        "logo": "/images/logo-business/novaliches.png",
+                        "desc": "Đào tạo và tư vấn quản lý nhân sự."
+                    },
+                    {
+                        "name": "NodeX",
+                        "logo": "/images/logo-business/NodeX.png",
+                        "desc": "Đào tạo và tư vấn quản lý nhân sự."
+                    },
+                    {
+                        "name": "FBNC Vietnam",
+                        "logo": "/images/logo-business/FBNC_Vietnam_Logo.png",
+                        "desc": "Kênh truyền hình tin tức tài chính và kinh doanh."
+                    },
+                    {
+                        "name": "PG Group",
+                        "logo": "/images/logo-business/Pggroup.webp",
+                        "desc": "Tổ chức sự kiện"
+                    },
+                    {
+                        "name": "Lotus Ocean",
+                        "logo": "/images/logo-business/lotus-ocean.jpg",
+                        "desc": "Chuyên đào tạo và cung ứng nhân lực cho Nhật Bản"
+                    }
+                ]
+            }
+        ]
+    },
+    "activities": {
+        "title": "Hoạt Động Đào Tạo"
+    }
+}

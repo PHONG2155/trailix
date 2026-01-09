@@ -1,0 +1,172 @@
+{
+    "hero": {
+        "badge": "Complete LMS Solution",
+        "title": {
+            "line1": "LMS SYSTEM",
+            "line2": "DEVELOPMENT SOLUTION"
+        },
+        "subtitle": "Cost savings – Quick deployment – Lifetime operation.",
+        "demoCTA": "Register Free Demo",
+        "priceCTA": "View Pricing"
+    },
+    "intro": {
+        "title": "Problem & Solution",
+        "problem": {
+            "title": "Traditional Training Challenges",
+            "items": [
+                "High classroom costs, difficult to scale",
+                "Dependent on instructors & location",
+                "Unable to measure training effectiveness",
+                "Scattered knowledge, not reusable"
+            ]
+        },
+        "solution": {
+            "title": "Trailix LMS Solution",
+            "description": "Trailix LMS is an online training platform customized to business needs, helping digitize the entire training process and turn knowledge into lasting assets.",
+            "items": [
+                "Permanent ownership – no subscription fees",
+                "Standardize knowledge across the enterprise",
+                "Measure & optimize training effectiveness"
+            ]
+        }
+    },
+    "features": {
+        "title": "Outstanding System Features",
+        "exclusiveBadge": "Exclusive feature",
+        "items": [
+            {
+                "title": "Diverse course management",
+                "desc": "The system supports all learning material formats such as Video, Slide, PDF and SCORM standard, helping businesses easily organize, manage and update training content centralized on a single platform.",
+                "highlight": false
+            },
+            {
+                "title": "Testing & Assessment",
+                "desc": "Allows creating multiple-choice and essay tests with automatic grading system, helping accurately evaluate learner competency and save time for instructors.",
+                "highlight": false
+            },
+            {
+                "title": "Exclusive AI ChatBOT",
+                "desc": "Intelligent virtual assistant supports learners to look up course information and lecture content 24/7, while reducing the workload of instructors and training departments.",
+                "highlight": true
+            },
+            {
+                "title": "Detailed reports",
+                "desc": "Provides visual dashboard to track learning progress, training results of each individual and department, supporting managers to make timely decisions.",
+                "highlight": false
+            },
+            {
+                "title": "E-commerce integration",
+                "desc": "Supports course sales and online payment, suitable for education businesses, training centers or individuals developing commercial courses.",
+                "highlight": false
+            },
+            {
+                "title": "Security & Backup",
+                "desc": "The system operates on modern Cloud Server infrastructure, ensuring data security with periodic backup mechanisms and high security standards.",
+                "highlight": false
+            }
+        ]
+    },
+    "comparison": {
+        "title": "LMS Solution Comparison",
+        "headers": [
+            "LMS SaaS",
+            "Moodle",
+            "Trailix LMS"
+        ],
+        "rows": [
+            {
+                "label": "Permanent ownership",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "No subscription fees",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Source code delivery",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Modern UX/UI",
+                "values": [
+                    true,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Customizable",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "AI Training Chatbot",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Dedicated technical support",
+                "values": [
+                    true,
+                    false,
+                    true
+                ]
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Implementation Process",
+        "steps": [
+            {
+                "title": "Consultation",
+                "desc": "Analyze training needs"
+            },
+            {
+                "title": "Demo",
+                "desc": "Deploy sample lesson"
+            },
+            {
+                "title": "Script",
+                "desc": "Optimize content"
+            },
+            {
+                "title": "Slide",
+                "desc": "Design learning materials"
+            },
+            {
+                "title": "Animation",
+                "desc": "Produce video"
+            },
+            {
+                "title": "Voice AI",
+                "desc": "Natural voiceover"
+            },
+            {
+                "title": "Quiz",
+                "desc": "Learning interaction"
+            },
+            {
+                "title": "SCORM",
+                "desc": "Delivery & integration"
+            }
+        ]
+    }
+}

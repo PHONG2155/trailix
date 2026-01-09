@@ -1,0 +1,160 @@
+{
+    "hero": {
+        "title": {
+            "line1": "MASTER AI",
+            "line2": "MASTER YOUR FUTURE"
+        },
+        "subtitle": "Đào tạo chuyên sâu về Prompt Engineering & Tự động hóa. Biến AI thành lợi thế cạnh tranh độc quyền của bạn trong kỷ nguyên số.",
+        "cta": {
+            "roadmap": "Tạo lộ trình học",
+            "demo": "Xem Demo"
+        }
+    },
+    "roadmap": {
+        "title": "Thiết Kế Lộ Trình",
+        "titleHighlight": "Thông Minh",
+        "subtitle": "Hệ thống AI sẽ phân tích vị trí công việc của bạn để tạo ra giáo trình học tập cá nhân hóa chính xác nhất.",
+        "form": {
+            "roleLabel": "Vị trí của bạn",
+            "rolePlaceholder": "Chọn vị trí...",
+            "roleCustomPlaceholder": "Nhập vị trí cụ thể...",
+            "levelLabel": "Cấp độ sử dụng AI hiện tại",
+            "levelPlaceholder": "Chọn cấp độ...",
+            "levelCustomPlaceholder": "Nhập cấp độ cụ thể...",
+            "generate": "Tạo lộ trình ngay",
+            "thinking": "Thinking...",
+            "other": "Khác"
+        },
+        "loader": {
+            "init": "Initializing neural network...",
+            "analyze": "Analyzing job role requirements...",
+            "fetch": "Fetching Prompt Engineering modules...",
+            "optimize": "Optimizing learning path...",
+            "compile": "Compiling roadmap..."
+        },
+        "result": {
+            "title": "Lộ trình cá nhân hoá",
+            "consultation": "Bạn muốn được hướng dẫn chi tiết theo lộ trình này?",
+            "registerBtn": "Đăng ký tư vấn chuyên sâu"
+        },
+        "emptyState": {
+            "title": "Chờ dữ liệu đầu vào",
+            "subtitle": "Hãy chọn vị trí và cấp độ để khởi động AI"
+        },
+        "roles": {
+            "marketing": "Marketing / Tiếp thị",
+            "sales": "Sales / Bán hàng",
+            "developer": "Lập trình viên",
+            "hr": "Nhân sự (HR)",
+            "manager": "Quản lý / Giám đốc",
+            "designer": "Thiết kế đồ họa",
+            "content_creator": "Sáng tạo nội dung",
+            "data_analyst": "Phân tích dữ liệu",
+            "educator": "Giáo dục / Đào tạo",
+            "event_planner": "Tổ chức sự kiện",
+            "admin": "Hành chính / Trợ lý"
+        },
+        "levels": {
+            "beginner": "Mới bắt đầu (Beginner)",
+            "intermediate": "Đã có kinh nghiệm (Intermediate)",
+            "advanced": "Chuyên gia (Advanced)"
+        }
+    },
+    "courses": {
+        "title": "Hệ thống",
+        "titleHighlight": "Khóa học",
+        "subtitle": "Giáo trình được tinh chỉnh để phù hợp với từng nhóm ngành nghề cụ thể, giúp bạn áp dụng ngay vào công việc.",
+        "items": [
+            {
+                "id": "prompt-eng",
+                "title": "Học viết Prompt",
+                "description": "Kỹ thuật ra lệnh cho AI, tối ưu hóa câu lệnh để nhận kết quả chính xác nhất cho từng tác vụ.",
+                "category": "Cốt l"
+            },
+            {
+                "id": "data-analysis",
+                "title": "Phân tích dữ liệu",
+                "description": "Sử dụng AI để đọc hiểu số liệu, làm sạch dữ liệu và tìm ra insight quan trọng từ báo cáo.",
+                "category": "Kỹ thuật"
+            },
+            {
+                "id": "ai-assistants",
+                "title": "Tạo trợ lý AI",
+                "description": "Xây dựng các trợ lý ảo cá nhân hóa (GPTs) để tự động hóa quy trình làm việc lặp lại.",
+                "category": "Kỹ thuật"
+            },
+            {
+                "id": "planning",
+                "title": "Lập kế hoạch",
+                "description": "Ứng dụng AI để lên chiến lược, roadmap dự án và quản lý thời gian hiệu quả.",
+                "category": "Kinh doanh"
+            },
+            {
+                "id": "slides",
+                "title": "Tạo Slide thuyết trình",
+                "description": "Tự động hóa việc tạo nội dung và bố cục slide chuyên nghiệp trong vài phút.",
+                "category": "Kinh doanh"
+            },
+            {
+                "id": "content-creation",
+                "title": "Tạo Content",
+                "description": "Sáng tạo nội dung đa kênh, từ bài đăng Facebook đến bài viết SEO chuyên sâu.",
+                "category": "Sáng tạo"
+            },
+            {
+                "id": "sales-scripts",
+                "title": "Kịch bản tư vấn bán hàng",
+                "description": "Xây dựng kịch bản chốt sale, xử lý từ chối và chăm sóc khách hàng tự động.",
+                "category": "Kinh doanh"
+            },
+            {
+                "id": "diagrams",
+                "title": "Tạo sơ đồ",
+                "description": "Biến ý tưởng phức tạp thành sơ đồ tư duy, flowchart hoặc biểu đồ trực quan.",
+                "category": "Kỹ thuật"
+            },
+            {
+                "id": "deepsearch",
+                "title": "Nghiên cứu DeepSearch",
+                "description": "Kỹ năng khai thác thông tin chuyên sâu, tổng hợp kiến thức từ hàng ngàn nguồn.",
+                "category": "Cốt lõi"
+            },
+            {
+                "id": "learning-ai",
+                "title": "Học tập với AI",
+                "description": "Biến AI thành gia sư riêng 1:1 để học bất kỳ kỹ năng mới nào với tốc độ gấp 5 lần.",
+                "category": "Cốt lõi"
+            },
+            {
+                "id": "design-uiux",
+                "title": "Thiết kế",
+                "description": "Hỗ trợ lên ý tưởng thiết kế, bố cục và màu sắc cho các ấn phẩm truyền thông.",
+                "category": "Sáng tạo"
+            },
+            {
+                "id": "video-creation",
+                "title": "Sáng tạo Video",
+                "description": "Viết kịch bản, tạo nhân vật ảo và dựng video tự động với công nghệ AI.",
+                "category": "Sáng tạo"
+            },
+            {
+                "id": "graphic-design",
+                "title": "Graphic Design",
+                "description": "Tạo ra các tài nguyên đồ họa, vector và chỉnh sửa ảnh chất lượng cao.",
+                "category": "Sáng tạo"
+            },
+            {
+                "id": "event-creativity",
+                "title": "Sáng tạo trong sự kiện",
+                "description": "Lên concept, kịch bản MC và các hoạt động tương tác độc đáo cho sự kiện.",
+                "category": "Sáng tạo"
+            },
+            {
+                "id": "chatbots",
+                "title": "Chatbot doanh nghiệp",
+                "description": "Triển khai hệ thống CSKH tự động 24/7 cho doanh nghiệp.",
+                "category": "Kỹ thuật"
+            }
+        ]
+    }
+}

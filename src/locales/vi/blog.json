@@ -1,0 +1,18 @@
+{
+    "list": {
+        "title": "Blog",
+        "subtitle": "Tin tức và kiến thức về AI",
+        "search": "Tìm kiếm bài viết...",
+        "readMore": "Đọc thêm",
+        "categories": "Danh mục",
+        "recent": "Bài viết mới nhất"
+    },
+    "post": {
+        "share": "Chia sẻ",
+        "related": "Bài viết liên quan",
+        "comments": "Bình luận",
+        "author": "Tác giả",
+        "publishedOn": "Xuất bản ngày",
+        "readTime": "phút đọc"
+    }
+}

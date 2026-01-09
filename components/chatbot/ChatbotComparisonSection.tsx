@@ -1,20 +1,17 @@
 import { Check, X } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 export const ChatbotComparisonSection = () => {
-  const rows = [
-    { label: "Phản hồi 24/7", values: [false, true, true] },
-    { label: "Hiểu ngữ cảnh hội thoại", values: [false, false, true] },
-    { label: "Huấn luyện theo dữ liệu DN", values: [false, false, true] },
-    { label: "Tăng doanh thu tự động", values: [false, false, true] },
-    { label: "Không cần nhân sự trực chat", values: [false, true, true] },
-  ];
+  const { t } = useTranslation('chatbot');
+  const headers = t('comparison.headers', { returnObjects: true }) as string[];
+  const rows = t('comparison.rows', { returnObjects: true }) as any[];
 
   return (
     <section className="bg-gray-50 py-28">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-black uppercase">
-            So Sánh Giải Pháp
+            {t('comparison.title')}
           </h2>
           <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
         </div>
@@ -22,9 +19,9 @@ export const ChatbotComparisonSection = () => {
         <div className="bg-white rounded-2xl p-10 shadow-xl border border-gray-100">
           <div className="grid grid-cols-4 font-black text-center mb-6">
             <div />
-            <div>Nhân sự CSKH</div>
-            <div>Rule Bot</div>
-            <div className="text-brand-red">Trailix AI</div>
+            {headers.map((header, idx) => (
+              <div key={idx} className={idx === 2 ? "text-brand-red" : ""}>{header}</div>
+            ))}
           </div>
 
           {rows.map((row, i) => (

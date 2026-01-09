@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "home": "Tiếng Việt",
+        "enterprise": "Doanh nghiệp",
+        "courses": "Khóa học",
+        "blog": "Blog",
+        "digitize": "Số hóa bài giảng",
+        "lms": "LMS",
+        "chatbot": "Chatbot"
+    },
+    "footer": {
+        "email": "Email",
+        "hotline": "Hotline",
+        "website": "Website",
+        "address": "Địa chỉ",
+        "addressValue": "Hồ Chí Minh, Việt Nam",
+        "copyright": "© 2025 Trailix - Trung tâm Nghiên cứu và Đào tạo AI. All rights reserved."
+    },
+    "language": {
+        "vietnamese": "Tiếng Việt",
+        "english": "English",
+        "switch": "Chuyển ngôn ngữ"
+    },
+    "buttons": {
+        "learnMore": "Thìm hiểu thêm",
+        "register": "Đăng ký ngay",
+        "send": "Gửi",
+        "viewAll": "Xem tất cả",
+        "downloadRoadmap": "Tải AI Learning Roadmap",
+        "backToTop": "Về đầu trang"
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "backHome": "Trở về Trang chủ"
+    }
+}

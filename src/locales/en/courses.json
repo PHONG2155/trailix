@@ -1,0 +1,1182 @@
+{
+    "list": {
+        "badge": "Training Programs",
+        "title": {
+            "main": "SYSTEM OF",
+            "highlight": " AI COURSES"
+        },
+        "subtitle": "Comprehensive training solutions from mindset, foundational skills to in-depth applications for each position.",
+        "viewDetail": "View details",
+        "items": {
+            "prompt-basic": {
+                "title": "BASIC PROMPT ENGINEERING",
+                "desc": "Write effective prompts right away – Step into the world of AI."
+            },
+            "prompt-advanced": {
+                "title": "ADVANCED PROMPT & AGENT",
+                "desc": "Build AI Agents and enterprise automation processes."
+            },
+            "office-ai": {
+                "title": "AI FOR OFFICE WORKERS",
+                "desc": "Speed up drafting, data processing, and working smarter."
+            },
+            "ai-employee": {
+                "title": "AI FOR EMPLOYEES",
+                "desc": "Optimize personal performance, reduce repetitive tasks."
+            },
+            "ai-hr": {
+                "title": "AI FOR HR",
+                "desc": "From recruitment, CV screening to talent retention."
+            },
+            "ai-sales-marketing": {
+                "title": "AI SALES & MARKETING",
+                "desc": "Find customers, care for them, and explode sales."
+            },
+            "ai-design": {
+                "title": "CREATIVE AI DESIGN",
+                "desc": "Design Banners, Posters, media publications without drawing skills."
+            },
+            "ai-video": {
+                "title": "AI VIDEO PRODUCTION",
+                "desc": "Professional marketing video production from script to post-production."
+            },
+            "ai-event": {
+                "title": "AI EVENT & STAGE",
+                "desc": "Concept creation, 3D stage Visuals and high-speed events."
+            },
+            "ai-data": {
+                "title": "AI DATA ANALYSIS",
+                "desc": "Turn raw data into reports and business strategies."
+            },
+            "ai-manager": {
+                "title": "AI FOR MANAGERS",
+                "desc": "Data-driven leadership, optimizing resources and team performance."
+            },
+            "ai-c-level": {
+                "title": "AI FOR C-LEVEL",
+                "desc": "Digital transformation strategy and creating competitive advantages."
+            }
+        }
+    },
+    "detail": {
+        "prompt-basic": {
+            "hero": {
+                "badge": "AI Foundation Course",
+                "title": {
+                    "main": "PROMPT ENGINEERING",
+                    "sub": "BASIC"
+                },
+                "subtitle": {
+                    "text": "Write Effective Prompts First Time –",
+                    "highlight": "Step",
+                    "suffix": "Into The World Of AI."
+                },
+                "duration": "Duration: 2 Foundation Sessions"
+            },
+            "message": {
+                "text": "“A good prompt is the key to unlocking AI's treasure trove of knowledge.",
+                "highlight": "Start with the right questions."
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Standard Prompt Structure",
+                        "desc": "Understand the structure and core components (Context, Instructions, Format) of a prompt for maximum efficiency."
+                    },
+                    {
+                        "title": "Instant Application",
+                        "desc": "Apply prompt techniques immediately to daily tasks: drafting emails, writing content, analysis."
+                    },
+                    {
+                        "title": "Sharp Writing Skills",
+                        "desc": "Hone linguistic thinking, write clear, specific prompts for AI to understand and return accurate results."
+                    },
+                    {
+                        "title": "Master The Tools",
+                        "desc": "Confidently control ChatGPT, Claude, Gemini to automate tasks and liberate labor power."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Content",
+                "subtitle": "Knowledge system from basic to applied.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Generative AI Overview",
+                        "content": "Understand the nature, operation and importance of prompts."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Effective Prompt Structure",
+                        "content": "4 golden elements: Context, Instructions, Output Format, Examples."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Common Prompt Types",
+                        "content": "Questions, commands, few-shot (learn by example), role-playing."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Optimal Writing Techniques",
+                        "content": "Principles of clear, specific and precise language when communicating with AI."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Practical Practice",
+                        "content": "Write prompts for emails, marketing content, and preliminary data analysis."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Troubleshooting & Refining",
+                        "content": "Identify vague prompts, lack of context and how to fix them."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Personal Resources",
+                        "content": "Build a library of template prompts for your own work."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Beginners",
+                    "Office Workers",
+                    "Managers",
+                    "Content Creators",
+                    "Anyone wanting to increase productivity"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't miss the opportunity to master AI tools and improve work productivity today.",
+                "register": "Register for consultation"
+            }
+        },
+        "prompt-advanced": {
+            "hero": {
+                "badge": "AI Automation Course",
+                "title": {
+                    "main": "ADVANCED PROMPT",
+                    "sub": "& AI AGENTS"
+                },
+                "subtitle": "Building AI Agents And Enterprise Automation Processes.",
+                "duration": "Duration: 2 Intensive Sessions"
+            },
+            "message": {
+                "text": "“Advanced prompting is not just about good questions, it's about thinking architecture.",
+                "highlight": "Learn to reason with AI.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Advanced Prompt Techniques",
+                        "desc": "Master Chain-of-thought and optimization techniques to ensure absolute accuracy from AI."
+                    },
+                    {
+                        "title": "Create Personal AI Agent",
+                        "desc": "Build virtual assistants trained on internal enterprise data to support sales, CS 24/7."
+                    },
+                    {
+                        "title": "Automation Workflow",
+                        "desc": "Connect AI with Email, Calendar, Drive to create fully automated workflows."
+                    },
+                    {
+                        "title": "From User to Creator",
+                        "desc": "Transition from a simple AI user to a solution creator, saving 70-80% of administrative time."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Knowledge system from mindset to practical implementation.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Advanced Prompt Techniques",
+                        "content": "Chain-of-thought, deep context management and complex task handling."
+                    },
+                    {
+                        "step": "02",
+                        "title": "AI Agent Design",
+                        "content": "Creating Persona, setting tone and building own knowledge base."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Q&A Assistant from Documents",
+                        "content": "Data cleaning, enterprise knowledge ingestion, semantic search techniques."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Tool Integration",
+                        "content": "Connecting AI with work ecosystem: Email, Calendar, CRM, Google Sheets."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Natural Communication",
+                        "content": "Building scripts for Sales Chatbot and Automated Customer Service."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Basic Automation",
+                        "content": "Familiarizing with Make.com/N8N, operating workflows and error handling."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Practical Deployment",
+                        "content": "Deploying AI assistant to Website, Fanpage or internal company platform."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Power Users",
+                    "Office Workers",
+                    "Admin/HR",
+                    "Middle Managers",
+                    "Automation Seekers"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Elevate your career with automation skills and creating your own AI assistant.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-c-level": {
+            "hero": {
+                "badge": "AI Strategy For C-Level",
+                "title": {
+                    "main": "AI FOR C-LEVEL",
+                    "sub": "STRATEGY & DIGITAL TRANSFORMATION"
+                },
+                "subtitle": "Creating Competitive Advantage In The AI Era.",
+                "duration": "Duration: 1 - 2 Senior Sessions"
+            },
+            "message": {
+                "text": "“Future leaders are those who know how to use AI to",
+                "highlight": "create the future.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Vision for Board of Directors",
+                "items": [
+                    {
+                        "title": "Strategic Vision",
+                        "desc": "Grasp the Big Picture of AI opportunities and challenges, thereby shaping long-term development strategies."
+                    },
+                    {
+                        "title": "Investment & ROI",
+                        "desc": "Evaluate technology investment efficiency, optimize budgets and create new revenue streams from AI-integrated business models."
+                    },
+                    {
+                        "title": "Leading Transformation",
+                        "desc": "Change management, building AI culture and talent strategy for the enterprise to adapt quickly to the digital age."
+                    },
+                    {
+                        "title": "Pioneering Position",
+                        "desc": "Access successful Case studies worldwide to apply, helping the enterprise get ahead of the trend."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Senior management strategy in the digital age.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI Overview for Leaders",
+                        "content": "Updating global technology opportunities, challenges and trends affecting businesses."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Market Intelligence",
+                        "content": "Using AI to analyze competitors and forecast macroeconomic trends."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Customer Insight",
+                        "content": "Large-scale customer experience personalization strategy (Hyper-personalization)."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Business Model Innovation",
+                        "content": "Restructuring value chains and creating new revenue streams from AI-integrated products/services."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Investment & ROI",
+                        "content": "可行 AI project evaluation framework, budget planning and investment efficiency measurement."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Organizational Transformation",
+                        "content": "Change Management and talent attraction strategy in the AI era."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Risk Management",
+                        "content": "AI ethics, data security and legal issues for senior leadership."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "CEO / General Director",
+                    "C-Level Directors",
+                    "Business Owners",
+                    "Investors",
+                    "Board Members"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Elevate leadership thinking and shape the future of the enterprise with a methodical AI strategy.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-manager": {
+            "hero": {
+                "badge": "AI For Management & Leadership",
+                "title": {
+                    "main": "AI FOR MANAGERS",
+                    "sub": "DATA-DRIVEN LEADERSHIP"
+                },
+                "subtitle": "Optimizing Resources And Team Performance With Technology.",
+                "duration": "Duration: 1 - 2 Sessions"
+            },
+            "message": {
+                "text": "“A good manager is not someone who does the work for employees,",
+                "highlight": "but someone who equips employees with the best tools.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Data-Driven Management",
+                        "desc": "Manage performance, projects and personnel transparently and fairly based on real data analysis and AI."
+                    },
+                    {
+                        "title": "Accurate Decision Making",
+                        "desc": "Minimize intuition thanks to risk analysis and trend forecasting capabilities of artificial intelligence."
+                    },
+                    {
+                        "title": "Optimize Team Processes",
+                        "desc": "Standardize and automate the workflow of the entire team thanks to intelligent AI collaboration tools."
+                    },
+                    {
+                        "title": "Liberate Leaders",
+                        "desc": "Reduce administrative management tasks (Admin) to focus entirely on strategy and people."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Modern management toolkit for Leader 4.0.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI in Management",
+                        "content": "Overview of AI tools supporting strategic decision making and operational monitoring."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Performance Management",
+                        "content": "Support fair employee review, create personalized development plans (IDP)."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Project Management",
+                        "content": "Forecast progress, identify risks early and propose remedial solutions."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Team Analysis",
+                        "content": "Monitor actual productivity, balance workload to avoid overload."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Resource Planning",
+                        "content": "Forecast future personnel needs, match employee skills with suitable projects."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Training & Coaching",
+                        "content": "Using AI to train new employees and act as a Mentor supporting expertise."
+                    },
+                    {
+                        "step": "07",
+                        "title": "AI Ethics",
+                        "content": "Building trust, ensuring transparency and data security internally."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Team Leaders",
+                    "Project Managers (PM)",
+                    "Department Heads",
+                    "Business Owners"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Elevate leadership and team management capabilities with the power of data and AI.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-employee": {
+            "hero": {
+                "badge": "AI For Employees",
+                "title": {
+                    "main": "AI FOR EMPLOYEES",
+                    "sub": "PERFORMANCE OPTIMIZATION"
+                },
+                "subtitle": "Using AI As A Daily Tool To Process Work Faster And More Efficiently.",
+                "duration": "Duration: 2 Sessions"
+            },
+            "message": {
+                "text": "“AI will not replace you, but a person using AI will",
+                "highlight": "replace a person who does not.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Increase Work Speed",
+                        "desc": "Complete 8 hours of work in just 2-3 hours thanks to automating repetitive tasks."
+                    },
+                    {
+                        "title": "Improve Quality",
+                        "desc": "Draft documents, emails, professional reports, no spelling errors and correct business style."
+                    },
+                    {
+                        "title": "Problem Solving",
+                        "desc": "Use AI as a Mentor to find solutions to difficult problems at work."
+                    },
+                    {
+                        "title": "Work-Life Balance",
+                        "desc": "Reduce pressure, limit OT (overtime) and have more time for yourself and family."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Practical AI skill set for every employee.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI Mindset",
+                        "content": "Understand AI correctly, how to ask questions (Prompting) and tool mastery mindset."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Drafting Documents",
+                        "content": "Write Emails, official dispatches, meeting minutes, Proposals quickly and professionally."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Basic Data Processing",
+                        "content": "Summarize long documents, extract information from PDF/Excel and make quick reports."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Content Creation",
+                        "content": "Brainstorm ideas, write social media posts, make beautiful presentation slides."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Research & Search",
+                        "content": "Smart information search skills, synthesizing deep professional knowledge."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Visual Tools",
+                        "content": "Create illustrations for presentations or reports without knowing design."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Personal Planning",
+                        "content": "Arrange schedule, manage Task list and optimize daily workflow."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Office Workers",
+                    "Sales & Marketing",
+                    "HR / Admin",
+                    "Accounting / Finance",
+                    "Fresher / Intern"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't letting yourself be left behind. Equip yourself with AI weapons to become an excellent employee today.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-hr": {
+            "hero": {
+                "badge": "AI For HR & Talent Acquisition",
+                "title": {
+                    "main": "AI FOR HR & HR",
+                    "sub": "FROM RECRUITMENT TO RETENTION"
+                },
+                "subtitle": "Elevating Human Resource Management With The Power Of Artificial Intelligence.",
+                "duration": "Duration: 2 Intensive Sessions"
+            },
+            "message": {
+                "text": "“Human resources are the core. AI helps you",
+                "highlight": "understand personnel better than they understand themselves.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Super Speed Recruitment",
+                        "desc": "Automate CV screening, write attractive JDs and search for potential candidates accurately."
+                    },
+                    {
+                        "title": "Personalized Training",
+                        "desc": "Build separate training paths (L&D) for each employee with optimal costs."
+                    },
+                    {
+                        "title": "Employee Engagement",
+                        "desc": "Analyze emotions, forecast turnover rates and propose solutions to retain talent in time."
+                    },
+                    {
+                        "title": "Reduce Admin Load",
+                        "desc": "Automate timekeeping, payroll, answering questions about policies, benefits (HR Bot)."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Comprehensive digital transformation of HR processes.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "AI in Recruitment",
+                        "content": "Write JDs, Automated CV Screening, create competency-based interview questions."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Candidate Sourcing",
+                        "content": "Passive Candidate Search Techniques on LinkedIn, Facebook."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Onboarding & Training",
+                        "content": "Create training materials, integration guide videos and promotion paths."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Internal Communication",
+                        "content": "Create engaging content, announcements and internal event scripts."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Competency Assessment",
+                        "content": "Build competency frameworks, KPI/OKR and effective Feedback systems."
+                    },
+                    {
+                        "step": "06",
+                        "title": "HR Analytics",
+                        "content": "Measure satisfaction, analyze causes of quitting and workforce trends."
+                    },
+                    {
+                        "step": "07",
+                        "title": "HR Chatbot",
+                        "content": "Build a virtual assistant to answer company policies and regulations 24/7."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "HR Executives",
+                    "Talent Acquisition",
+                    "C&B",
+                    "L&D Specialists",
+                    "HR Managers/Directors"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Create a smarter and happier working environment with HR 4.0 strategy.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-sales-marketing": {
+            "hero": {
+                "badge": "AI For Sales & Growth",
+                "title": {
+                    "main": "AI FOR SALES & MARKETING",
+                    "sub": "EXPLODING SALES"
+                },
+                "subtitle": "Finding Customers – Care & Closing Sales Automatically.",
+                "duration": "Duration: 2 Practical Sessions"
+            },
+            "message": {
+                "text": "“Marketing is based on emotion. Sales is based on negotiation. AI is based on data.",
+                "highlight": "Combine all three to explode  sales.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Heavy weapons for frontline teams",
+                "items": [
+                    {
+                        "title": "Optimize Lead Generation",
+                        "desc": "Automate search, data enrichment and Lead Scoring processes so Sales focus on closing deals."
+                    },
+                    {
+                        "title": "Mass Personalization",
+                        "desc": "Send thousands of marketing messages but still keep it personal for each customer thanks to AI."
+                    },
+                    {
+                        "title": "Practical Sales Support",
+                        "desc": "Draft calling scripts, sales emails, analyze calls and forecast sales accurately."
+                    },
+                    {
+                        "title": "Increase Conversion Rate",
+                        "desc": "Shorten sales cycles and increase customer lifetime value (Upsell/Cross-sell) thanks to data understanding."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Closed process from Finding to Closing deals.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Search & Calssification",
+                        "content": "Lead Scoring and automatic customer data enrichment."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Sales Intelligence",
+                        "content": "Deep research on customers and competitors before making the first call."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Message Personalization",
+                        "content": "Write Cold Emails, telesales scripts that 'touch' customer pain points."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Marketing Automation",
+                        "content": "Optimize ad campaigns, segment customers and nurture automatically."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Sales Team Support",
+                        "content": "Analyze psychology via calls, act as virtual 'Sale Coach' to train employees."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Forecasting & Analytics",
+                        "content": "Manage Sales Pipeline and forecast revenue based on real data."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Customer Care",
+                        "content": "Automate responses, personalize post-sales experience to increase return rates."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Sales Staff",
+                    "Marketing Specialists",
+                    "Business Development (BD)",
+                    "Customer Care",
+                    "Sale Managers"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't let competitors get ahead. Equip AI weapons for Sales & Marketing teams today.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-data": {
+            "hero": {
+                "badge": "AI Data Analysis",
+                "title": {
+                    "main": "AI FOR DATA ANALYSIS",
+                    "sub": "& REPORTING"
+                },
+                "subtitle": "Turning Raw Data Into Business Strategy.",
+                "duration": "Duration: 2 Practical Sessions"
+            },
+            "message": {
+                "text": "“Data is an asset. AI is the tool to mine that asset to",
+                "highlight": "create profit.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Data Processing Workflow",
+                        "desc": "Master cleaning, standardizing and restructuring complex Excel/CSV files in minutes."
+                    },
+                    {
+                        "title": "In-depth Analysis",
+                        "desc": "Statistics, finding hidden trends and extracting valuable insights for decision making."
+                    },
+                    {
+                        "title": "Impressive Reporting",
+                        "desc": "Visualization techniques and persuasive Data Storytelling."
+                    },
+                    {
+                        "title": "No Programming Required",
+                        "desc": "Analyze data quickly and accurately without knowing Python or SQL, suitable for office workers."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Roadmap to mastering data from A-Z.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Data Overview",
+                        "content": "Distinguish structured and unstructured data, Data-driven mindset."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Data Cleaning",
+                        "content": "Automatically detect and handle erroneous, missing data, standardize formats."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Basic Analysis",
+                        "content": "Descriptive statistics, pattern recognition and anomaly detection."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Extracting Insights",
+                        "content": "Finding meaning behind dry numbers and making action recommendations."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Forecasting",
+                        "content": "Scenario simulation (What-if analysis) and predicting future business trends."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Visualization",
+                        "content": "Selecting effective charts, building Index Tracking Dashboards."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Reporting Skills",
+                        "content": "Optimizing strategic report slides and data storytelling techniques."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Managers",
+                    "Data Analysts",
+                    "Marketing Managers",
+                    "Business Owners",
+                    "Accountants/Finance"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Turn dry numbers into sharp strategic weapons for your business.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-design": {
+            "hero": {
+                "badge": "AI For Creative Design",
+                "title": {
+                    "main": "AI FOR DESIGN",
+                    "sub": "CREATIVE"
+                },
+                "subtitle": "Banner, Poster, Brochure, HTML Email – Comprehensive Design Solution.",
+                "duration": "Duration: 2 - 4 Practical Sessions"
+            },
+            "message": {
+                "text": "“You don't need to be an artist. Formula:",
+                "highlight": "AI + Prompt + Design Thinking = Professional Artwork.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Design Thinking",
+                        "desc": "Master core principles: Layout, Color Theory, Typography and Visual Hierarchy."
+                    },
+                    {
+                        "title": "Master AI Tools",
+                        "desc": "Proficiently use Midjourney, Ideogram... to create high-quality, unique images."
+                    },
+                    {
+                        "title": "Real Publications",
+                        "desc": "Hand-design professional Banners, Brochures, Posters and Landing Pages right in the course."
+                    },
+                    {
+                        "title": "Autonomy & Consistency",
+                        "desc": "Reduce dependence on outsourcing, save costs and ensure Brand Consistency."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "From aesthetic thinking to sharp execution skills.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Design Thinking Foundation",
+                        "content": "Understand layout, color, fonts and visual principles deeply."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Design Styles",
+                        "content": "Explore styles: Modern, Minimalist, Classic, Corporate..."
+                    },
+                    {
+                        "step": "03",
+                        "title": "AI Image Tools",
+                        "content": "Techniques and tips with Midjourney, Ideogram to create images as desired."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Writing Prompts for Images",
+                        "content": "Detailed description formula, style keywords and technical parameters."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Practical Application",
+                        "content": "Design Banner, Standee, Flyer, Social Post for campaigns."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Web & Email Design",
+                        "content": "Create HTML Templates, Landing Page structures and Slide Backgrounds."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Post-production & Branding",
+                        "content": "Edit, upscale and control brand identity."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Marketers",
+                    "Content Creators",
+                    "Small Business Owners",
+                    "Freelancers",
+                    "Office Workers"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Turn ideas into professional images today without drawing skills.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-video": {
+            "hero": {
+                "badge": "AI Video Production",
+                "title": {
+                    "main": "AI FOR VIDEO",
+                    "sub": "PRODUCTION"
+                },
+                "subtitle": "From Script To Post-Production – Making Video Marketing Without A Professional Crew.",
+                "duration": "Duration: 2 - 4 Practical Sessions"
+            },
+            "message": {
+                "text": "“Video is the future of content.",
+                "highlight": "AI democratizes filmmaking, helping you create impressive videos in just 30 minutes.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Director Mindset",
+                        "desc": "Learn to build storyboards, film rhythm and engaging Visual Storytelling."
+                    },
+                    {
+                        "title": "Full Package Process",
+                        "desc": "Master from A-Z: Script → AI Image → AI Voice → Music → Complete Editing."
+                    },
+                    {
+                        "title": "Real Products",
+                        "desc": "Practice creating promotional videos, product introductions or complete training videos right in class."
+                    },
+                    {
+                        "title": "Speed & Savings",
+                        "desc": "Increase production speed by 10 times, maximize budget savings on filming and dubbing."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Roadmap to becoming an independent video producer.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Director Mindset",
+                        "content": "Script structure, emotional journey and basic film rhythm."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Video Genres",
+                        "content": "Analyze TVC ads, corporate intros, training videos, Shorts/Reels."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Engaging Scripts",
+                        "content": "Hook Formula, Problem, Solution to retain viewers."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Creating Materials with AI",
+                        "content": "Create illustration images/videos, generate voice (Text-to-speech) and background music (Suno/Udio)."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Editing & Effects",
+                        "content": "Using CapCut, transition techniques, color grading and compositing."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Multi-channel Optimization",
+                        "content": "Create auto subtitles, publish videos in standard formats for TikTok, YouTube, Facebook."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Using Virtual MC",
+                        "content": "Apply AI Avatar to make presentation videos or professional news."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Marketers",
+                    "Content Creators",
+                    "Media Managers",
+                    "Trainers",
+                    "Youtuber/TikToker"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't miss the opportunity to hand-produce professional footage with the power of AI.",
+                "register": "Register for consultation"
+            }
+        },
+        "office-ai": {
+            "hero": {
+                "badge": "AI for Productivity",
+                "title": {
+                    "main": "BASIC AI APPLICATIONS",
+                    "sub": "FOR OFFICE WORKERS"
+                },
+                "subtitle": "From Drafting To Data Analysis – Essential Skill Set.",
+                "duration": "Duration: 2 Practical Sessions"
+            },
+            "message": {
+                "text": "“Don't work harder,",
+                "highlight": "work smarter with AI.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "Super Speed Drafting",
+                        "desc": "Optimize text drafting, emails, reports and professional content creation in a split second."
+                    },
+                    {
+                        "title": "Data Analysis",
+                        "desc": "Skills to clean raw data, statistics and extract critical insights supporting decision making."
+                    },
+                    {
+                        "title": "Lightning Slide Design",
+                        "desc": "Create beautiful presentation slides, standard layouts with Gamma, Claude Designer or Gemini."
+                    },
+                    {
+                        "title": "“AI-First” Mindset",
+                        "desc": "Save 2-3 hours of work per day by always thinking of AI solutions before starting manual work."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "“Survival” skill set in the digital age.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Prompt Engineering Review",
+                        "content": "Master writing clear, coherent commands for AI to understand correctly."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Drafting Documents",
+                        "content": "Write emails, official dispatches, proposals, professional social media content."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Creative Skills",
+                        "content": "Develop breakthrough ideas and engaging storytelling."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Market Research",
+                        "content": "Using 'Deep Research' to analyze competitors & understand customers."
+                    },
+                    {
+                        "step": "05",
+                        "title": "Data Analysis",
+                        "content": "Clean raw data, quick statistics and find valuable insights."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Report Design",
+                        "content": "Use Gamma, Claude, Gemini to create auto report slides in 30 minutes."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Optimize PowerPoint",
+                        "content": "Refine layout, color and impressive data visualization."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Office Workers",
+                    "Managers",
+                    "HR/Admin",
+                    "Sales/Marketing",
+                    "Anyone wanting to increase productivity"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't miss the opportunity to equip yourself with the \"survival\" skill set in the digital age.",
+                "register": "Register for consultation"
+            }
+        },
+        "ai-event": {
+            "hero": {
+                "badge": "AI Event Master",
+                "title": {
+                    "main": "AI DESIGN",
+                    "sub": "EVENT & STAGE"
+                },
+                "subtitle": "Turn Briefs into Super Speed 3D Visuals. Ultimate Weapon for Event Agencies.",
+                "duration": "Duration: 4 Practical Sessions"
+            },
+            "message": {
+                "text": "“The stage is the brightest place.",
+                "highlight": "AI helps you shine in every project.”"
+            },
+            "values": {
+                "badge": "Core Values",
+                "title": "Why do you need this course?",
+                "items": [
+                    {
+                        "title": "“Zero to Hero” Process",
+                        "desc": "Master the comprehensive workflow: Analyze tough Briefs → Unique Concept → Export 3D Visuals conquering clients."
+                    },
+                    {
+                        "title": "Max Speed",
+                        "desc": "Use AI to create Moodboards, Key Visuals and sketch stage layouts 10 times faster than the old way."
+                    },
+                    {
+                        "title": "Visualizer Video",
+                        "desc": "Create 3D demo videos with lighting effects, smoke, cinematic cam movement."
+                    },
+                    {
+                        "title": "Increase Win Rate",
+                        "desc": "Persuade investors thanks to visual, vivid and emotional Proposals."
+                    }
+                ]
+            },
+            "modules": {
+                "title": "Key Syllabus",
+                "subtitle": "Knowledge system from basic to advanced.",
+                "items": [
+                    {
+                        "step": "01",
+                        "title": "Analyze Brief",
+                        "content": "Understand customer needs, goals and brand identity."
+                    },
+                    {
+                        "step": "02",
+                        "title": "Brainstorm & Ideas",
+                        "content": "Develop Main Concept, Moodboard."
+                    },
+                    {
+                        "step": "03",
+                        "title": "Key Visual",
+                        "content": "Create main images with AI, find styles."
+                    },
+                    {
+                        "step": "04",
+                        "title": "Sketching",
+                        "content": "Space layout, stage arrangement."
+                    },
+                    {
+                        "step": "05",
+                        "title": "3D Stage & Booth Modeling",
+                        "content": "Basic modeling, layout details."
+                    },
+                    {
+                        "step": "06",
+                        "title": "Lighting & Angles",
+                        "content": "Stage lighting design, choosing valuable camera angles."
+                    },
+                    {
+                        "step": "07",
+                        "title": "Visualizer Video & Proposal",
+                        "content": "Render 3D videos, integrate into presentations."
+                    }
+                ]
+            },
+            "target": {
+                "title": "Who is this for?",
+                "tags": [
+                    "Event Designers",
+                    "Art Directors",
+                    "Account Managers",
+                    "Producers",
+                    "Freelancers"
+                ]
+            },
+            "cta": {
+                "title": "Ready to breakthrough?",
+                "desc": "Don't miss the opportunity to master AI technology in event design.",
+                "register": "Register for consultation"
+            }
+        }
+    }
+}

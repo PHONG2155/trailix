@@ -1,0 +1,152 @@
+{
+    "hero": {
+        "badge": "Giải pháp doanh nghiệp 4.0",
+        "title": {
+            "line1": "SỐ HÓA BÀI GIẢNG E-LEARNING",
+            "line2": "BẰNG CÔNG NGHỆ AI"
+        },
+        "subtitle": "Giải pháp chuyển đổi nội dung đào tạo truyền thống sang e-learning hiện đại, tự động hóa bằng AI giúp doanh nghiệp tiết kiệm chi phí, tăng tốc triển khai và nâng cao hiệu quả đào tạo nội bộ."
+    },
+    "benefits": {
+        "items": [
+            {
+                "title": "Tiết kiệm 70–90% chi phí",
+                "desc": "Giảm mạnh chi phí so với quay dựng video truyền thống, không phụ thuộc đội ngũ sản xuất, thiết bị và lịch quay phức tạp."
+            },
+            {
+                "title": "Tốc độ triển khai vượt trội",
+                "desc": "Sản xuất bài giảng chỉ trong vài giờ đến 1 ngày, dễ dàng cập nhật nội dung khi có thay đổi từ doanh nghiệp."
+            },
+            {
+                "title": "Chất lượng học tập cao",
+                "desc": "Animation 2D/3D sinh động, giọng đọc AI tự nhiên, giúp tăng tỷ lệ hoàn thành và ghi nhớ nội dung học tập."
+            },
+            {
+                "title": "Chuẩn SCORM / LMS",
+                "desc": "Dễ dàng tích hợp với các hệ thống LMS phổ biến như Moodle, Docebo, Cornerstone hoặc nền tảng đào tạo nội bộ hiện có."
+            },
+            {
+                "title": "Dễ dàng mở rộng quy mô",
+                "desc": "Đào tạo hàng nghìn nhân sự cùng lúc mà không làm tăng chi phí tuyến tính, phù hợp cho doanh nghiệp tăng trưởng nhanh."
+            }
+        ]
+    },
+    "impact": {
+        "title": "Ý nghĩa & Tác động",
+        "employee": {
+            "title": "Đối với Nhân viên",
+            "items": [
+                "Chủ động học tập mọi lúc, mọi nơi trên đa thiết bị.",
+                "Nội dung trực quan, sinh động, dễ hiểu, dễ nhớ.",
+                "Tăng hứng thú và khả năng ứng dụng vào thực tế."
+            ]
+        },
+        "manager": {
+            "title": "Đối với Quản lý",
+            "items": [
+                "Chuẩn hóa nội dung đào tạo trên toàn hệ thống.",
+                "Theo dõi tiến độ, đánh giá hiệu quả học tập tức thì.",
+                "Tiết kiệm nguồn lực tổ chức lớp học truyền thống."
+            ]
+        }
+    },
+    "comparison": {
+        "title": "So sánh phương pháp triển khai",
+        "subtitle": "Khác biệt rõ ràng giữa phương pháp sản xuất e-learning truyền thống và giải pháp số hóa tự động hóa bằng AI của Trailix.",
+        "traditional": "Truyền thống",
+        "trailix": "Trailix AI",
+        "rows": [
+            {
+                "label": "Công nghệ",
+                "traditional": "Sản xuất thủ công, phụ thuộc con người",
+                "trailix": "Tự động hóa bằng AI"
+            },
+            {
+                "label": "Chi phí / phút",
+                "traditional": "10 – 30 triệu VNĐ",
+                "trailix": "1.2 – 2.4 triệu VNĐ"
+            },
+            {
+                "label": "Thời gian sản xuất",
+                "traditional": "3 – 15 ngày / video",
+                "trailix": "Vài giờ – 1 ngày"
+            },
+            {
+                "label": "Khả năng mở rộng",
+                "traditional": "Khó, chi phí tăng tuyến tính",
+                "trailix": "Không giới hạn quy mô"
+            }
+        ]
+    },
+    "process": {
+        "title": "Quy trình triển khai",
+        "steps": [
+            {
+                "title": "Tư vấn",
+                "desc": "Phân tích nhu cầu đào tạo"
+            },
+            {
+                "title": "Demo",
+                "desc": "Triển khai bài mẫu"
+            },
+            {
+                "title": "Kịch bản",
+                "desc": "Tối ưu nội dung"
+            },
+            {
+                "title": "Slide",
+                "desc": "Thiết kế học liệu"
+            },
+            {
+                "title": "Animation",
+                "desc": "Sản xuất video"
+            },
+            {
+                "title": "Voice AI",
+                "desc": "Lồng tiếng tự nhiên"
+            },
+            {
+                "title": "Quiz",
+                "desc": "Tương tác học tập"
+            },
+            {
+                "title": "SCORM",
+                "desc": "Bàn giao & tích hợp"
+            }
+        ]
+    },
+    "pricing": {
+        "basic": {
+            "title": "Gói số hóa cơ bản",
+            "subtitle": "(Đã có nội dung sẵn)",
+            "price": "1.200.000",
+            "unit": "VNĐ / phút",
+            "features": [
+                "Video & Slide",
+                "Giọng đọc AI",
+                "Quiz cơ bản",
+                "Đóng gói SCORM"
+            ],
+            "button": "Nhận tư vấn"
+        },
+        "comprehensive": {
+            "title": "Gói triển khai toàn diện",
+            "subtitle": "(Từ ý tưởng đến hoàn thiện)",
+            "price": "2.400.000",
+            "unit": "VNĐ / phút",
+            "badge": "KHUYÊN DÙNG",
+            "features": [
+                "Bao gồm gói cơ bản",
+                "Thiết kế sư phạm (ID)",
+                "Animation nâng cao",
+                "Hỗ trợ tích hợp LMS"
+            ],
+            "button": "Chọn gói này"
+        }
+    },
+    "pricingCTA": {
+        "text": "Giá có thể điều chỉnh linh hoạt theo quy mô dự án.",
+        "subtext": "Liên hệ để nhận demo miễn phí một module mẫu.",
+        "button": "Tư vấn chi tiết"
+    }
+}

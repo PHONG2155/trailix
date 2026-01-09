@@ -2,10 +2,13 @@ import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { motion, AnimatePresence, useScroll } from 'framer-motion';
 import { Menu, X, ChevronRight, ChevronDown } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { LanguageSwitcher } from '../ui/LanguageSwitcher';
 
 const LOGO_SRC = "/images/logo-page/Trailix.png";
 
 export const Navbar = () => {
+  const { t } = useTranslation('common');
   const [isOpen, setIsOpen] = useState(false);
   const [openBusiness, setOpenBusiness] = useState(false);
   const { scrollY } = useScroll();
@@ -45,9 +48,8 @@ export const Navbar = () => {
 
   return (
     <motion.nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-20">
@@ -60,31 +62,30 @@ export const Navbar = () => {
           <div className="hidden md:flex items-center gap-12">
             <div className="flex items-center gap-8">
 
-              {/* TRANG CHỦ */}
+              {/* HOME */}
               <Link
                 to="/"
                 className={`nav-link ${isActive('/') && 'active'}`}
               >
-                TRANG CHỦ
+                {t('nav.home').toUpperCase()}
               </Link>
 
-              {/* DOANH NGHIỆP DROPDOWN */}
+              {/* ENTERPRISE DROPDOWN */}
               <div
                 className="relative h-full flex items-center"
                 onMouseEnter={() => setOpenBusiness(true)}
                 onMouseLeave={() => setOpenBusiness(false)}
               >
                 <button
-                  className={`nav-link flex items-center gap-1 uppercase ${
-                    location.pathname.includes('doanh-nghiep') ||
-                    location.pathname.includes('so-hoa-bai-giang')
+                  className={`nav-link flex items-center gap-1 uppercase ${location.pathname.includes('doanh-nghiep') ||
+                      location.pathname.includes('so-hoa-bai-giang')
                       ? 'active'
                       : ''
-                  }`}
+                    }`}
                 >
-                  DOANH NGHIỆP 
-                  <ChevronDown 
-                    className={`w-4 h-4 transition-transform duration-300 ${openBusiness ? 'rotate-180' : ''}`} 
+                  {t('nav.enterprise').toUpperCase()}
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform duration-300 ${openBusiness ? 'rotate-180' : ''}`}
                   />
                 </button>
 
@@ -103,28 +104,28 @@ export const Navbar = () => {
                           onClick={() => setOpenBusiness(false)}
                           className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
                         >
-                          ĐÀO TẠO IN-HOUSE
+                          {t('nav.enterprise').toUpperCase()}
                         </Link>
                         <Link
                           to="/so-hoa-bai-giang"
                           onClick={() => setOpenBusiness(false)}
                           className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
                         >
-                          SỐ HÓA BÀI GIẢNG
+                          {t('nav.digitize').toUpperCase()}
                         </Link>
                         <Link
                           to="/lms"
                           onClick={() => setOpenBusiness(false)}
                           className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
                         >
-                          GIẢI PHÁP LMS 
+                          {t('nav.lms').toUpperCase()}
                         </Link>
                         <Link
                           to="/chatbot"
                           onClick={() => setOpenBusiness(false)}
                           className="block px-4 py-3 rounded-xl hover:bg-red-50 hover:text-brand-red font-semibold text-sm transition-colors duration-200"
                         >
-                          GIẢI PHÁP CHATBOT
+                          {t('nav.chatbot').toUpperCase()}
                         </Link>
                       </div>
                     </motion.div>
@@ -132,40 +133,46 @@ export const Navbar = () => {
                 </AnimatePresence>
               </div>
 
-              {/* --- MỚI THÊM: BLOG LINK --- */}
+              {/* BLOG LINK */}
               <Link
                 to="/blog"
                 className={`nav-link ${isActive('/blog') ? 'active' : ''}`}
               >
-                BLOG
+                {t('nav.blog').toUpperCase()}
               </Link>
 
-              {/* NHẬN BÁO GIÁ */}
-              <button
-                onClick={handleScrollToContact}
-                className="nav-link"
+              {/* GET QUOTE - Hidden in navbar, moved to CTA */}
+              <Link
+                to="/courses"
+                className={`nav-link ${isActive('/courses') ? 'active' : ''}`}
               >
-                NHẬN BÁO GIÁ
-              </button>
+                {t('nav.courses').toUpperCase()}
+              </Link>
             </div>
 
-            {/* CTA */}
-            <motion.button
-              onClick={handleScrollToContact}
-              whileHover={{ scale: 1.05 }}
-              className="bg-brand-red text-white px-8 py-3 rounded-full font-bold shadow-lg flex items-center gap-2"
-            >
-              ĐĂNG KÝ NGAY <ChevronRight className="w-4 h-4" />
-            </motion.button>
+            {/* Language Switcher & CTA */}
+            <div className="flex items-center gap-4">
+              <LanguageSwitcher />
+              <motion.button
+                onClick={handleScrollToContact}
+                whileHover={{ scale: 1.05 }}
+                className="bg-brand-red text-white px-8 py-3 rounded-full font-bold shadow-lg flex items-center gap-2"
+              >
+                {t('nav.enterprise').toUpperCase()} <ChevronRight className="w-4 h-4" />
+              </motion.button>
+            </div>
           </div>
 
           {/* MOBILE TOGGLE */}
-          <div className="md:hidden flex items-center gap-3">
+          <div className="md:hidden flex items-center gap-2">
+            <div className="scale-75">
+              <LanguageSwitcher />
+            </div>
             <button
               onClick={handleScrollToContact}
-              className="bg-brand-red text-white px-4 py-2 rounded-full text-xs font-bold"
+              className="bg-brand-red text-white px-3 py-2 rounded-full text-xs font-bold"
             >
-              ĐĂNG KÝ
+              {t('nav.enterprise').slice(0, 6)}
             </button>
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X /> : <Menu />}
@@ -184,13 +191,13 @@ export const Navbar = () => {
             className="md:hidden bg-white shadow-xl overflow-hidden"
           >
             <div className="px-4 py-4 space-y-2">
-              <Link to="/" className="mobile-link">TRANG CHỦ</Link>
+              <Link to="/" className="mobile-link">{t('nav.home').toUpperCase()}</Link>
 
               <button
                 onClick={() => setOpenBusiness(!openBusiness)}
                 className="mobile-link flex justify-between items-center w-full"
               >
-                DOANH NGHIỆP 
+                {t('nav.enterprise').toUpperCase()}
                 <ChevronDown className={`transform transition-transform ${openBusiness ? 'rotate-180' : ''}`} />
               </button>
 
@@ -204,30 +211,30 @@ export const Navbar = () => {
                   >
                     <div className="ml-4 border-l-2 border-gray-100 pl-4 space-y-2 py-2">
                       <Link to="/doanh-nghiep" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
-                        ĐÀO TẠO IN-HOUSE
+                        {t('nav.enterprise').toUpperCase()}
                       </Link>
                       <Link to="/so-hoa-bai-giang" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
-                        SỐ HÓA BÀI GIẢNG
+                        {t('nav.digitize').toUpperCase()}
                       </Link>
-                       <Link to="/lms" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
-                        GIẢI PHÁP LMS
+                      <Link to="/lms" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        {t('nav.lms').toUpperCase()}
                       </Link>
-                       <Link to="/chatbot" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
-                        GIẢI PHÁP CHATBOT
+                      <Link to="/chatbot" className="mobile-sub block py-2 text-gray-600 hover:text-brand-red">
+                        {t('nav.chatbot').toUpperCase()}
                       </Link>
                     </div>
                   </motion.div>
                 )}
               </AnimatePresence>
 
-              {/* --- MỚI THÊM: BLOG LINK MOBILE --- */}
+              {/* BLOG LINK MOBILE */}
               <Link to="/blog" className="mobile-link block w-full text-left">
-                BLOG
+                {t('nav.blog').toUpperCase()}
               </Link>
 
-              <button onClick={handleScrollToContact} className="mobile-link w-full text-left">
-                NHẬN BÁO GIÁ
-              </button>
+              <Link to="/courses" className="mobile-link block w-full text-left">
+                {t('nav.courses').toUpperCase()}
+              </Link>
             </div>
           </motion.div>
         )}

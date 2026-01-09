@@ -8,6 +8,7 @@ import {
   ShoppingCart,
   ShieldCheck
 } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const features = [
   {
@@ -44,13 +45,17 @@ const features = [
 ];
 
 export const LMSFeaturesSection = () => {
+  const { t } = useTranslation('lms');
+  const features = t('features.items', { returnObjects: true }) as any[];
+  const icons = [Video, ClipboardCheck, Bot, BarChart3, ShoppingCart, ShieldCheck];
+
   return (
     <section className="bg-gray-50 py-28">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-20">
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-black uppercase">
-              Tính Năng Nổi Bật Hệ Thống
+              {t('features.title')}
             </h2>
             <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
           </Reveal>
@@ -68,7 +73,7 @@ export const LMSFeaturesSection = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
         >
           {features.map((item, idx) => {
-            const Icon = item.icon;
+            const Icon = icons[idx];
             return (
               <motion.div
                 key={idx}
@@ -105,7 +110,7 @@ export const LMSFeaturesSection = () => {
 
                 {item.highlight && (
                   <div className="mt-6 inline-block text-xs font-bold uppercase tracking-wide text-brand-red bg-red-50 px-4 py-1.5 rounded-full">
-                    Tính năng độc quyền
+                    {t('features.exclusiveBadge')}
                   </div>
                 )}
               </motion.div>

@@ -1,0 +1,129 @@
+{
+    "hero": {
+        "badge": "AI Chatbot Solution for Enterprise",
+        "title": {
+            "line1": "AI CHATBOT ASSISTANT",
+            "line2": "AUTOMATE CONSULTATION & CUSTOMER SERVICE"
+        },
+        "subtitle": "Intelligent chatbot system helps businesses respond to customers 24/7, reduce staff load and increase conversion rates.",
+        "demoCTA": "Get Chatbot Demo",
+        "consultCTA": "Consult Solution"
+    },
+    "intro": {
+        "title": "Problem & Solution",
+        "problem": {
+            "title": "Customers waiting – Revenue lost",
+            "items": [
+                "Customers message outside business hours",
+                "CS responds slowly due to overload",
+                "Lose customers due to untimely consultation",
+                "Staff repeats same questions every day"
+            ]
+        },
+        "solution": {
+            "title": "Trailix AI Chatbot Solution",
+            "description": "AI Chatbot helps businesses automate customer consultation 24/7, answer accurately based on internal data.",
+            "items": [
+                "Instant response",
+                "Reduce CS staff load",
+                "Increase conversion rate"
+            ]
+        }
+    },
+    "comparison": {
+        "title": "Solution Comparison",
+        "headers": [
+            "CS Staff",
+            "Rule Bot",
+            "Trailix AI"
+        ],
+        "rows": [
+            {
+                "label": "24/7 response",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            },
+            {
+                "label": "Understand conversation context",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Train on business data",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "Automatic revenue increase",
+                "values": [
+                    false,
+                    false,
+                    true
+                ]
+            },
+            {
+                "label": "No chat staff needed",
+                "values": [
+                    false,
+                    true,
+                    true
+                ]
+            }
+        ]
+    },
+    "features": {
+        "title": "Outstanding Features",
+        "items": [
+            {
+                "title": "24/7 customer consultation",
+                "desc": "Chatbot operates continuously, no customers missed.",
+                "highlight": false
+            },
+            {
+                "title": "Context-aware AI",
+                "desc": "Analyzes intent, answers accurately like real staff.",
+                "highlight": true
+            },
+            {
+                "title": "Train on enterprise data",
+                "desc": "Learn from website, documents, internal FAQ.",
+                "highlight": false
+            },
+            {
+                "title": "Reports & conversion optimization",
+                "desc": "Track consulting effectiveness and customer behavior.",
+                "highlight": false
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Implementation Process",
+        "steps": [
+            {
+                "title": "Consultation",
+                "desc": "Analyze needs & goals"
+            },
+            {
+                "title": "Data collection",
+                "desc": "Website, documents, scripts"
+            },
+            {
+                "title": "AI training",
+                "desc": "Fine-tune on business data"
+            },
+            {
+                "title": "Deployment",
+                "desc": "Integrate chatbot into system"
+            }
+        ]
+    }
+}

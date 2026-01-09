@@ -1,17 +1,22 @@
 import { motion } from "framer-motion";
 import { Reveal } from "../ui/Shared";
 import { AlertTriangle, Lightbulb } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     transition: { duration: 0.5, ease: "easeOut" }
   }
 };
 
 export const LMSIntroSection = () => {
+  const { t } = useTranslation('lms');
+  const problemItems = t('intro.problem.items', { returnObjects: true }) as string[];
+  const solutionItems = t('intro.solution.items', { returnObjects: true }) as string[];
+
   return (
     <section className="bg-white py-28">
       <div className="max-w-7xl mx-auto px-4">
@@ -19,7 +24,7 @@ export const LMSIntroSection = () => {
         <div className="text-center mb-20">
           <Reveal>
             <h2 className="text-3xl md:text-5xl font-black font-display uppercase">
-              Vấn Đề & Giải Pháp
+              {t('intro.title')}
             </h2>
             <div className="h-1.5 w-24 bg-brand-red mx-auto mt-6 rounded-full" />
           </Reveal>
@@ -48,13 +53,12 @@ export const LMSIntroSection = () => {
               <AlertTriangle size={28} />
             </div>
             <h3 className="text-2xl font-black mb-4 uppercase">
-              Bài Toán Đào Tạo Truyền Thống
+              {t('intro.problem.title')}
             </h3>
             <ul className="space-y-4 text-gray-600 font-medium">
-              <li>• Chi phí tổ chức lớp học cao, khó mở rộng</li>
-              <li>• Phụ thuộc giảng viên & địa lý</li>
-              <li>• Không đo lường được hiệu quả đào tạo</li>
-              <li>• Tri thức phân tán, không tái sử dụng</li>
+              {problemItems.map((item, idx) => (
+                <li key={idx}>• {item}</li>
+              ))}
             </ul>
           </motion.div>
 
@@ -69,17 +73,15 @@ export const LMSIntroSection = () => {
               <Lightbulb size={28} />
             </div>
             <h3 className="text-2xl font-black mb-4 uppercase text-brand-red">
-              Giải Pháp Trailix LMS
+              {t('intro.solution.title')}
             </h3>
             <p className="text-gray-700 font-medium leading-relaxed mb-4">
-              Trailix LMS là nền tảng đào tạo trực tuyến được <strong>may đo theo
-              nhu cầu doanh nghiệp</strong>, giúp số hóa toàn bộ quy trình đào tạo
-              và biến tri thức thành tài sản lâu dài.
+              {t('intro.solution.description')}
             </p>
             <ul className="space-y-3 text-gray-600 font-medium">
-              <li>• Sở hữu vĩnh viễn – không phí thuê bao</li>
-              <li>• Chuẩn hóa kiến thức toàn doanh nghiệp</li>
-              <li>• Đo lường & tối ưu hiệu quả đào tạo</li>
+              {solutionItems.map((item, idx) => (
+                <li key={idx}>• {item}</li>
+              ))}
             </ul>
           </motion.div>
         </motion.div>

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion'; // 1. Import thêm 'motion'
-import { HelmetProvider } from 'react-helmet-async'; 
+import { HelmetProvider } from 'react-helmet-async';
 
 // Import các component hiện có
 import { Navbar } from './components/layout/Navbar';
@@ -47,13 +47,13 @@ const App = () => {
   return (
     <HelmetProvider>
       <div className="bg-white min-h-screen flex flex-col font-sans selection:bg-brand-red selection:text-white">
-        
+
         <Navbar />
-        
+
         <AnimatePresence mode="wait">
           {/* 2. SỬA CHÍNH Ở ĐÂY: Dùng motion.div thay vì div thường */}
-          <motion.div 
-            key={location.pathname} 
+          <motion.div
+            key={location.pathname}
             className="w-full flex-grow"
             initial={{ opacity: 0, y: 15 }}      // Bắt đầu: hơi mờ và thấp xuống một chút
             animate={{ opacity: 1, y: 0 }}       // Hiện ra: rõ nét và về vị trí chuẩn
@@ -66,7 +66,7 @@ const App = () => {
               <Route path="/doanh-nghiep" element={<BusinessPage />} />
               <Route path="/blog" element={<BlogList />} />
               <Route path="/blog/:slug" element={<BlogPostDetail />} />
-      
+
               {/* Route cho trang Số hóa bài giảng */}
               <Route path="/so-hoa-bai-giang" element={<ElearningPage />} />
 
@@ -76,41 +76,41 @@ const App = () => {
               <Route path="/chatbot" element={<ChatbotPage />} />
 
               {/* Route cho trang AI to Event */}
-              <Route path="/ai-event" element={<AiEvent />} />
+              <Route path="/courses/ai-event" element={<AiEvent />} />
               {/* Route cho trang Prompt Basic */}
-              <Route path="/prompt-basic" element={<PromptBasic />} />
+              <Route path="/courses/prompt-basic" element={<PromptBasic />} />
               {/* Route cho trang AI dành cho C-Level */}
-              <Route path="/ai-c-level" element={<AiCLevel />} />
+              <Route path="/courses/ai-c-level" element={<AiCLevel />} />
               {/* Route cho trang AI dành cho Manager */}
-              <Route path="/ai-manager" element={<AiManager />} />
+              <Route path="/courses/ai-manager" element={<AiManager />} />
               {/* Route cho trang AI dành cho Nhân viên */}
-              <Route path="/ai-employee" element={<AiEmployee />} />
+              <Route path="/courses/ai-employee" element={<AiEmployee />} />
               {/* Route cho trang AI dành cho HR */}
-              <Route path="/ai-hr" element={<AiHr />} />
+              <Route path="/courses/ai-hr" element={<AiHr />} />
               {/* Route cho trang AI dành cho Sales & Marketing */}
-              <Route path="/ai-sales-marketing" element={<AiSalesMarketing />} />
+              <Route path="/courses/ai-sales-marketing" element={<AiSalesMarketing />} />
               {/* Route cho trang AI về Dữ liệu */}
-              <Route path="/ai-data" element={<AiData />} />
+              <Route path="/courses/ai-data" element={<AiData />} />
               {/* Route cho trang AI về Thiết kế */}
-              <Route path="/ai-design" element={<AiDesign />} />
+              <Route path="/courses/ai-design" element={<AiDesign />} />
               {/* Route cho trang AI về Video */}
-              <Route path="/ai-video" element={<AiVideo />} />    
+              <Route path="/courses/ai-video" element={<AiVideo />} />
               {/* Route cho trang Office AI */}
-              <Route path="/office-ai" element={<OfficeAI />} />
+              <Route path="/courses/office-ai" element={<OfficeAI />} />
               {/* Route cho trang Prompt Advanced */}
-              <Route path="/prompt-advanced" element={<PromptAdvanced />} />
+              <Route path="/courses/prompt-advanced" element={<PromptAdvanced />} />
               {/* Route cho trang Danh sách Khóa học */}
               <Route path="/courses" element={<CoursesList />} />
               {/* Route bắt lỗi 404 */}
 
               <Route path="*" element={<NotFoundPage />} />
-              
+
             </Routes>
           </motion.div>
         </AnimatePresence>
-        
+
         <Footer />
-        
+
       </div>
     </HelmetProvider>
   );
